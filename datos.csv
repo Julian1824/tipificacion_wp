@@ -1,0 +1,110 @@
+1;Aplicaciones de Autogestion;Bloqueo Usuario/Contrasena;App Movil / Mi Tigo;Cuando el usuario no puede ingresar a Mi Tigo porque no recuerda la contraseña o está bloqueada
+2;Aplicaciones de Autogestion;Configuracion de Servicios;App Movil / Mi Tigo;Cuando el usuario solicita realizar alguna configuración de Mi Tigo, por ejemplo: Adicionar otros servicio o contratos
+3;Aplicaciones de Autogestion;Creacion Usuario;App Movil / Mi Tigo;Cuando el usuario solicita información parar crear la cuenta en Mi Tigo
+4;Aplicaciones de Autogestion;Falla de Servicios;App Movil / Mi Tigo;Cuando la app no deja ingresar al usuario
+5;Atencion Al Cliente;Actualizar Datos Personales;Actualiza Direccion/email;Cuando el usuario solicita actualizar sus datos de dirección o correo (en casos que no tienen que ver con factura)
+6;Atencion Al Cliente;Actualizar Datos Personales;Actualiza Registro Cliente;Actualizar datos del usuario como números de contacto (en casos que no tienen que ver con factura)
+7;Atencion Al Cliente;Actualizar Datos Personales;Cambio de Titularidad;Cambio de Suscriptor
+8;Atencion Al Cliente;CallBack;Cliente No Contactado;N/A - No se realizan contactos de salida
+9;Atencion Al Cliente;Club de Fidelidad;Canje de Puntos;Puntos o promociones que se le brindan al usuario como por ejemplo en Compra de Equipos
+10;Atencion Al Cliente;Club de Fidelidad;Se Brinda Informacion;N/A
+11;Atencion Al Cliente;Comentario del Cliente;Iniciativa Comercial;Cuando se le da información al usuario de algún servicio para la venta
+12;Atencion Al Cliente;Contacto No Efectivo;Cliente abandona;Usuario no informa motivo de contacto e indica que se va a comunicar luego o se va a comunicar por otro medio.
+13;Atencion Al Cliente;Contacto No Efectivo;Transferencia;Retiro Transferencia Rete N2 // Aplica para todas las transferencias a otro pilotos: Rete, móvil, pymes, CD, soporte, etc
+14;Atencion Al Cliente;Felicitaciones/Sugerencias;Felicitaciones;Cuando el usuario se comunica para felicitar
+15;Atencion Al Cliente;Felicitaciones/Sugerencias;Sugerencias;Cuando el usuario se comunica porque tiene sugerencias
+16;Atencion Al Cliente;Horarios /Ubicacion Tiendas;Se Brinda Informacion;Cuando se le indica al usuario la información con respecto a los horarios de atención, líneas o tiendas
+17;Atencion Al Cliente;Info Plan Contratado;Se Brinda Informacion;Cambio Tecnología - Información WIFI Pro, información del plan que tiene el usuario actualmente, número de contrato, cualquier información relacionada a su plan
+18;Atencion Al Cliente;Mala Atencion Ejecutivo;Mal Servicio Tiendas;Cliente se comunica presentando inconformidad por la atención brindada en una de las tiendas Tigo (Centros de experiencia)
+19;Atencion Al Cliente;Mala Atencion Tecnico;Mal Servicio Home;Cliente se comunica para presentar inconformidad sobre la atención prestada o mal procedimiento realizado por uno de los técnicos de servicio.
+20;Atencion Al Cliente;Puntos/Medios de Pago;Se Brinda Informacion;Cuando se le indica al usuario la información con respecto a los lugares en donde se puede pagar la factura ya sean físicos o virtuales
+21;Factura/Cobro;Actualizar Datos Personales;Actualizar Datos Facturacion;Cambio Dirección envío Factura - Petición Cambio Estrato - QF por Estrato Errado
+22;Factura/Cobro;Afiliacion Factura Digital;Se Brinda Informacion;Cualquier información con respecto a factura digital como: Si está no afiliado, promociones vigentes o cómo afiliarse
+23;Factura/Cobro;Afiliacion Factura Digital;Se Realiza Alta/Modificacion;Inscripción a factura digital o modificación de correo o número de celular
+24;Factura/Cobro;Desacuerdo en la Factura;Cobro de Suscripcion;Aplica para Movilidad
+25;Factura/Cobro;Desacuerdo en la Factura;Descuento No Aplicado;Inconvenientes con descuentos ofrecidos al usuario, reliquidaciones por descuentos que no se aplicaron en rete
+26;Factura/Cobro;Desacuerdo en la Factura;Deuda Vencida;Cliente expresa su inconformidad con el cobro de deudas vencidas en su factura
+27;Factura/Cobro;Desacuerdo en la Factura;Diferencia Contrato/Oferta;QF por Estrato Errado - Ajuste por Cobro de Equipos - Usuario manifiesta que le habían ofrecido otro plan y envía comprobante pero no está aplicada la oferta en siebel
+28;Factura/Cobro;Desacuerdo en la Factura;Financiamiento Deuda/Device;Ajuste por Cobro de Equipos
+29;Factura/Cobro;Desacuerdo en la Factura;Llamadas/Minutos/Tarifas;Desacuerdo en los valores por cargos en la factura sobre llamadas a móvil - QF por esta casuística
+30;Factura/Cobro;Desacuerdo en la Factura;Prorrateo;Cliente expresa su inconformidad con la facturación o valores cargados a la factura de sus servicios solicitando prorrateo de los cobros o por la facturación de servicios prorrateados. (Cargos proporcionales a la cantidad que el servicio se usa)
+31;Factura/Cobro;Desacuerdo en la Factura;Reconexion No Realizada;Reconexión por Falta de Pago - User que realizó el pago y no se reconectó - SS reconexion
+32;Factura/Cobro;Desacuerdo en la Factura;Servicio No Instalado;Ajuste por Cobro de Equipos
+33;Factura/Cobro;Detalles Factura/Llamadas;No Muestra Factura/Detalle;Cliente expresa su inconformidad con los valores cargados a su factura - Se le brinda infomación y explicación de los cobros realizados.
+34;Factura/Cobro;Detalles Factura/Llamadas;Se Proporciona Saldo/Detalles;Envío de saldo pendiente con referente de pago ó explicación de factura
+35;Factura/Cobro;No Recibe Factura;Actualizar Datos Facturacion;Cuando el usuario no recibe la factura y los datos se encuentran errados, por lo tanto, se debe actualizar dirección a la que está llegando o el correo si es factura digital
+36;Factura/Cobro;No Recibe Factura;Enviar Factura Electronica;Duplicado de Factura Física
+37;Factura/Cobro;Notificacion de Cobro;Cobro No Corresponde;Mensajes y llamadas de cobros que no corresponden con la cédula del usuario - Escalamiento por medio del formulario Listas Negras
+38;Factura/Cobro;Notificacion de Cobro;Se Brinda Informacion;Cuando el usuario requiere Petición de Paz y Salvo - Usuaio solicita información de la agencia de cobro
+39;Factura/Cobro;Notificacion de Cobro;Se Otorga Financiamiento;Cuando el usuario pide o se le ofrece Financiamiento de la deuda
+40;Factura/Cobro;Servicio No Reconocido;Mala Gestion de Venta;Usuario informa que recibe mensajes de cobranzas y solicita información sobre dichos mensajes ya que desconoce los contratos o cobros. Al verificar la información se evidencia que el cobro es producto de una mala gestión de ventas/Suplantación.
+41;Factura/Cobro;Servicio No Reconocido;Sospecha de Fraude;QF por fraude - Reliquidaciones por fraude
+42;Factura/Cobro;Suspension de Servicio;Bloqueo Mora - Deuda Vencida;Servicios suspendidos por falta de pago
+43;Factura/Cobro;Suspension de Servicio;Bloqueo Mora-Cliente Al Dia;Servicios suspendidos pero el cliente no se encuentra en mora
+44;Factura/Cobro;Suspension de Servicio;Bloqueo Mora-Error en Pago;Información sobre servicios suspendidos por falta de pago - Usuario paga a un contrato errado y se le suspenden sus servicios
+45;Informacion de Servicios;Solicita Informacion;Infomacion Regulatoria;Entrega de Equipos - Cambio de Estrato - Unificar y Separar Contratos - Paz y Salvo - Solicitud de Pumed - Proceso Decos por SS- Estado de ss
+46;Informacion de Servicios;Solicita Informacion;Informacion Corporativa;Etiqueta general, aplica para cualquier información de la empresa o relacionada con ella.
+47;Informacion de Servicios;Solicita Informacion;Internet Fijo;Matrícula grabación Contrato - Suspensión por Orden del Suscriptor - Se brinda informacion con respecto al internet (velocidad contratada, beneficios, entre otros)
+48;Informacion de Servicios;Solicita Informacion;Paquetes Residenciales;Cualquier información acerca de los paquetes fijos
+49;Informacion de Servicios;Solicita Informacion;Promociones Vigentes;Cuando el usuario pregunta por las promociones vigentes y descuento pero a manera de información (telefonía, internet, televisión, paquetes premium)
+50;Informacion de Servicios;Solicita Informacion;Telefonia Fija;Matrícula grabación Contrato - Suspensión por Orden del Suscriptor - Adicion o Retiro de Discados - Adición o Retiro de Grabación - Adicion o Retiro de Larga Distancia - Adición Servicio Especiales y Telebuzón - Código Secreto - Cambio de Número - Cambio TO a Ordinaria o Semiprivada
+51;Informacion de Servicios;Solicita Informacion;Television;Matrícula grabación Contrato - Suspensión por Orden del Suscriptor - Se brinda informacion con respecto a la TV (Plan contratado, guia de canales, entre otros)
+52;Instalacion Nueva;Incumplimiento Visita;Visita Cancelada;Casos de instalación de servicios nuevos o cambios de domicilio - Incumplimiento y cancelación de la visita por falta de cobertura, mal ingreso, cliente no contactado, etc
+53;Instalacion Nueva;Incumplimiento Visita;Visita Reprogramada;"Casos de instalación de servicios nuevos o cambios de domicilio - El CE re agenda la visita por cualquier motivo - Cuando se deja pendiente ""Por Agendar"" en caso de que Siebel no traiga Disponibilidad"
+54;Instalacion Nueva;Incumplimiento Visita;Visita Suspendida;Casos de instalación de servicios nuevos o cambios de domicilio - Visista en suspensión por factores climaticos, fallas generales, entre otros, que no se haya cancelado aún.
+55;Modificar Productos/Servicios;Activar/Suscribir Promocion;Paquetes Premium - AddOns;Adición Paquetes Premium - Ingreso HBO Max (GO)
+56;Modificar Productos/Servicios;Activar/Suscribir Promocion;Servicios Fijos - Bundle;Cambio de plan dúos o tríos (aumento de megas, cambio de plan de tv, gotica, renovar descuentos)
+57;Modificar Productos/Servicios;Activar/Suscribir Promocion;Servicios Fijos - Single;Cambio de plan servicio individual (aumento de megas, cambio de plan de tv, gotica, renovar descuentos)
+58;Modificar Productos/Servicios;Adicionar/Eliminar Decodific;Television;Extensión de TV, Adición o Retiro de Decos (SD y HD)
+59;Modificar Productos/Servicios;Adicionar/Eliminar Repetidor;Internet Fijo;Información WIFI Pro o eliminar Wi-fi pro del portafolio
+60;Modificar Productos/Servicios;Cambiar Plan/Oferta;Paquetes Premium - AddOns;Cambiar o renovar la oferta de los pauqetes premium
+61;Modificar Productos/Servicios;Cambiar Plan/Oferta;Servicios Fijos - Bundle;Adicición o retiro de paquetes - Cambio Velocidad BA
+62;Modificar Productos/Servicios;Cambiar Plan/Oferta;Servicios Fijos - Single;Adicición o retiro de paquetes - Cambio Velocidad BA, cambio de plan TV
+63;Modificar Productos/Servicios;Cambiar Serie Caja;Television;Cuando el cliente solicita Cambio de Decodificador
+64;Modificar Productos/Servicios;Desactivar Promocion;Paquetes Premium - AddOns;Retiro Paquetes Premium
+65;Modificar Productos/Servicios;Desactivar Promocion;Servicios Fijos - Bundle;Desactivar promociones de varios servicios
+66;Modificar Productos/Servicios;Desactivar Promocion;Servicios Fijos - Single;Desactivar promociones de un solo servicio
+67;Modificar Productos/Servicios;Modificar Instalacion;Servicios Fijos - Bundle;Movimiento Interno de Redes/Equipos - Cambio de Plan Telefonía - QS por garantía e la instalación o Instalación Incompleta
+68;Modificar Productos/Servicios;Modificar Instalacion;Servicios Fijos - Single;Movimiento Interno de Redes/Equipos - Cambio de Plan Telefonía - QS por garantía e la instalación o Instalación Incompleta
+69;Modificar Productos/Servicios;Trasladar Servicio;Servicios Fijos - Bundle;Cambio de Domicilio de varios servicios
+70;Modificar Productos/Servicios;Trasladar Servicio;Servicios Fijos - Single;Cambio de Domicilio de un solo servicio
+71;Pagos/Reactivaciones;ABM Debito Automatico;Actualizar Datos Facturacion;Usuario se comunica solicitando información de como cambiar la Tarjeta para el débito Automático.
+72;Pagos/Reactivaciones;Acuerdos de Pago;Beneficio de Cobro;Cliente solicita acuerdos de pago (negociación de la deuda).
+73;Pagos/Reactivaciones;Acuerdos de Pago;Prorroga de Pago;Usuario solicita cambiar la fecha de pago
+74;Pagos/Reactivaciones;Acuerdos de Pago;Se Otorga Financiamiento;Financiaciones
+75;Pagos/Reactivaciones;Consulta Ciclo/Fecha de Pago;Se Brinda Informacion;Ciclo de factura, ciclo de consumo, fechas de pago, fechas de suspensiones
+76;Pagos/Reactivaciones;Consulta de Pagos;Se Brinda Informacion;Pagos realizados que se encuentran en el sistema
+77;Pagos/Reactivaciones;Pagar Factura;Pago Anticipado;Cuando el usuario solicita pagar cuotas de financiación anticipada.
+78;Pagos/Reactivaciones;Pagar Factura;Pago Parcial;Cliente solicita pago de la factura más vencida (Pago Parcial)
+79;Pagos/Reactivaciones;Pagar Factura;Pago Total;Cuando se autoriza el valor total de la deuda
+80;Pagos/Reactivaciones;Pago No Aplicado;Configurar Sistema;Cuando se realiza una reactivación del servicio desde el facturador por pago no aplicado (Elite)
+81;Pagos/Reactivaciones;Pago No Aplicado;Falla Debito Automatico;Cliente reclama por la suspensión en sus servicios aún cuando tiene débito Automáticos activo y solicita la reconexión. Al realizar las verificaciones se evidencia que el débito automático no se aplicó correctamente
+82;Pagos/Reactivaciones;Pago No Aplicado;Falla Pago Tigo Web;Cliente se comunica informando que su pago efectuado desde le página web no se aplicó y su servicio fue suspendido y solicita la reconexión - Fallas en la página
+83;Pagos/Reactivaciones;Pago No Aplicado;Se Brinda Informacion;Explicación sobre pagos no aplicados que al superar el ANS se escala la respectiva reclamación/SS
+84;Pagos/Reactivaciones;Reactivar Servicio;Reactivacion Despues de Pago;Cliente reporta que realizó el pago, este ya ingresó y solicita la reconexión de sus servicios fijos ya que contiuan suspendidos
+85;Venta Nueva;Alta de Servicio;Internet Fijo;Cliente existente requiere servicio nuevo en la misma dirección - Cliente Nuevo solicita servico en dirección existente - Producto Nuevo
+86;Venta Nueva;Alta de Servicio;Paquetes Residenciales;Cliente existente requiere servicio nuevo en la misma dirección - Cliente Nuevo solicita servico en dirección existente - Producto Nuevo
+87;Venta Nueva;Alta de Servicio;Telefonia Fija;Cliente existente requiere servicio nuevo en la misma dirección - Cliente Nuevo solicita servico en dirección existente - Producto Nuevo
+88;Venta Nueva;Alta de Servicio;Television;Cliente existente requiere servicio nuevo en la misma dirección - Cliente Nuevo solicita servico en dirección existente - Producto Nuevo
+89;Atención Al Cliente;Actualización de Datos;Actualización Dirección/email;Petición Cambio Estrato - QF por Estrato Errado
+90;Atención Al Cliente;Actualización de Datos;Actualización Registro Cliente;Actualizar datos del usuario como números de contacto (en casos que no tienen que ver con factura)
+91;Atención Al Cliente;Actualización de Datos;Cambio de Titularidad;Cambio de Suscriptor
+92;Atención Al Cliente;Felicitaciones/Sugerencias;Felicitaciónes;Se comunica el cliente para felicitar a un funcionario Tigo.
+93;Factura/Cobro;No Recibe Factura;Actualizar Datos Facturación;Cliente se comunica solicitando actualización/cambio de la dirección donde se reciben las facturas (email/dirección física
+94;Factura/Cobro;Notificación de Cobro;Cobro No Corresponde;Cliente expresa su inconformidad ya que recibe mensajes de cobranza por deudas que no le corresponden. Se realiza el proceso para evitar que éstos le sigan llegando. Error en la información de la base de datos.
+95;Factura/Cobro;Suspensión de Servicio;Bloqueo Mora-Cliente Al Dia;Usuario solicita información del motivo de la suspensión de su servicio. Al consultar se evidencia que la cuenta se encuentra al día y se procede con la respectiva gestión para la reconexión el servicio.
+96;Factura/Cobro;Suspensión de Servicio;Bloqueo Mora-Pago no registrado;QF Escalada por Pago no Aplicado /no Registra
+97;Información de Servicios;Solicita Información;Móvil Pospago/Hibrido;Etiqueta que aplica para móvil
+98;Información de Servicios;Solicita Información;Televisión Cable;Información de portafolio de usuario con TV básica por Cable
+99;Modificar Productos/Servicios;Cambiar Plan;Televisión - DTH;N/A
+100;Modificar Productos/Servicios;Cambiar Plan;Voz/Datos Móvil;Etiqueta que aplica para móvil
+101;Modificar Productos/Servicios;Desactivar Paquetes;Roaming;Etiqueta que aplica para móvil
+102;Modificar Productos/Servicios;Desactivar Promoción;Televisión - DTH;N/A
+103;Modificar Productos/Servicios;Trasladar Servicio;Televisión - DTH;N/A
+104;Pagos/Reactivaciónes;Afiliar Debito Automatico;Actualizar Datos Facturación;Cliente solicita la activación del débito automático de su cuenta (si es servicio móvil) y/o contrato (si es servicio fijo).
+105;Pagos/Reactivaciónes;Desafiliar Debito Automatico;Actualizar Datos Facturación;Cliente solicita la desactivación del pago a través de débito automático de su factura fija o movil
+106;Pagos/Reactivaciónes;Recepción de Pago;Pago Total;Cliente reporta el pago de su factura y solicita la reconexión de sus servicios fijo y/o móviles - Informarle o autorizarle el pago total al usuario
+107;Renovaciónes y Retenciónes;Renovación de Servicio;Telefonia Fijo-Móvil;Actualización del descuento que tiene el usuario en el servicio de telefonía.
+108;Atencion Al Cliente;Contacto No Efectivo;Contacto de Broma/Prueba;Interacciones de prueba en el piloto o cuando los usuarios ingresan y es una broma, sin ningún requerimiento
+109;Atencion Al Cliente;Mala Atencion Ejecutivo;Mal Servicio C.Center;Cliente se comunica para interponer una queja sobre la atención o un mal procedimiento por parte de uno de los creadores de experiencia del contact center (Chat, redes sociales, línea de atención al cliente, mail)
+110;Pagos/Reactivaciones;Pago No Aplicado;Se Escala Caso;QF Escalada por Pago no Aplicado /no Registra
