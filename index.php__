@@ -1,0 +1,2938 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tipificación - TigoUne</title>
+    <link href="assets/dist/themes/Flaty/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="//biblioteca.emtelco.co/_plugins/jquery/1.11.1/jquery-1.11.1.min.js"></script>
+    <script src="//biblioteca.emtelco.co/_plugins/inputmask/js/inputmask.js"></script>
+    <link href="/tuya/dist/jQuery-Tree-Filter/dist/jquery.treefilter.css" rel="stylesheet" type="text/css" />
+    <script src="/tuya/dist/jQuery-Tree-Filter/dist/jquery.treefilter-0.1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="//biblioteca.emtelco.co/_plugins/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet" />
+    <script src="//biblioteca.emtelco.co/_plugins/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="//biblioteca.emtelco.co/_plugins/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="/tuya/dist/jQuery-Tree-Filter/dist/jquery.treefilter.css" rel="stylesheet" type="text/css" />
+    <script src="/tuya/dist/jQuery-Tree-Filter/dist/jquery.treefilter-0.1.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <section class="header-border">
+        <header class="header">
+            <div class="">
+                <image src="http://biblioteca.emtelco.co/tigo/Tipificacion_tigo/assets/images/Tipificacion-01.png"
+                    style=" width:100%;" class="img-fluid"></image>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary"><span
+                style="color:#1a2a68; font-size:20px;">&nbsp;Tipificación</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input type="search" class="form-control" id="my-search" placeholder="¿Que estas Buscando?">
+                    <!--<button type="button" class="btn btn-primary" onclick="Limpiar()">Limpiar búsqueda</button>-->
+                </form>
+            </div>
+        </nav>
+    </section>
+
+<body>
+
+    <center>
+        <table class="tableizer-table table table-bordered table-striped " id="example-table"
+            style="width:98%;margin-bottom: 60px;text-align: justify;">
+            <thead>
+                <tr class="tableizer-firstrow">
+                    <th>Nivel 1</th>
+                    <th>Nivel 2</th>
+                    <th>Nivel 3</th>
+                    <th>CodFinalizacion</th>
+                    <th>Observaciones Tipi</th>
+                    <th>Solución en Primer Contacto </th>
+                    <th>Validaciones </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ATP</td>
+                    <td>Incidencias ATP</td>
+                    <td>FF eliminados sin solicitud del cliente</td>
+                    <td>FF eliminados sin solicitud del cliente</td>
+                    <td>FF eliminados sin solicitud del cliente</td>
+                    <td>Cuando el usuario manifiesta que no puede hacer uso del servicio de favoritos en su plan.
+                        Identificar si tiene un plan con el servicio activo en CRM, en la ventana de Posventas-
+                        Transacciones. Inscripción de favoritos.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Incidencias ATP</td>
+                    <td>Incidencias servicio comunidad atp</td>
+                    <td>Incidencias servicio comunidad atp</td>
+                    <td>Todo tipo de inconvenientes que se tengan con el servicio comunidad,</td>
+                    <td>Las siguientes incidencias se deben escalar en la Planilla "IG-Comunidad-Inconvenientes Familia
+                        y Datos" No permite eliminar e inscribir líneas en la comunidad - Teniendo las líneas de la
+                        comunidad activas los eventos se descuentan de otros recursos y el usuario solicita el ajuste -
+                        CRM no habilita o tiene los campos incompletos para registrar las líneas de la comunidad -Se
+                        asigna la totalidad de recursos de Navegación a la línea padre, y no a las líneas hijas,
+                        teniendo estas una cuota de navegación asignada Antes de realizar el escalamiento se debe
+                        verificar que el usuario cumpla con la políticas del servicio, como lo es, activar las líneas de
+                        la comunidad antes del corte, las activadas deben ser prepago o ATP, no podrán tener activo un
+                        paquete de SOCIAL o MAIL dentro de sus recursos propios, solo se permite inscribir líneas Tigo,
+                        entre otros (validar política de comunidad para inscripción)</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Incidencias ATP</td>
+                    <td>Recursos incompletos</td>
+                    <td>Recursos incompletos</td>
+                    <td>cuando el usuario manifiesta que no le entregaron recursos</td>
+                    <td>Se valida la información en CI/BO para identificar la fecha de cilo y la entrega de los
+                        recursos. De ser necesario escalar según la naturaleza por :Ajustes Generales (Prepago, ATP,
+                        Control, Pospago, Pospago 5.1 y Pospago 5.2)</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Incidencias ATP</td>
+                    <td>Recursos no asignados</td>
+                    <td>Recursos no asignados</td>
+                    <td>Fallas con la asignación de recursos de combos, paquetes, suscripciones, cambios de combos,
+                        paquetes, suscripciones no realizadas o mal realizadas, no aplicación de ofertas</td>
+                    <td>Realizar las validaciones básicas y servicios que tiene suscritos, si se presenta el
+                        inconveniente escalar en EROS por la planilla "Inconvenientes paquetes ATP"</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Consulta de Saldo de paquetes Arma tu Plan</td>
+                    <td>Consulta de Saldo de paquetes Arma tu Plan</td>
+                    <td>Cuando nuestro usuario solicita información de su saldo actual de paquetes</td>
+                    <td>Se debe informar al usuario los recursos que tiene vigentes hasta la fecha de corte; se brinda
+                        el proceso de auto atención (*234#) y enviar SMS WEB con los pasos.</td>
+                    <td>Si se comunica de otra línea, validar con el titular de la línea 3 datos de 5, así mismo, la
+                        validación de pregunta filtro (Consideraciones Para La Validación De Datos)</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Consulta de saldo voz o datos por demanda</td>
+                    <td>Consulta de saldo voz o datos por demanda</td>
+                    <td>Cuando nuestro usuario se comunica consultando el saldo de recursos de voz o datos por demanda,
+                        es decir saldo disponible en dinero o paquetes comprados con recargas realizadas a la línea.
+                    </td>
+                    <td>Verificar en CI el saldo disponible, brindar la información e indicar el proceso de auto
+                        atención por medio de *234# y enviar SMS como proceso de auto atención.</td>
+                    <td>Si se comunica de otra línea, validar con el titular de la línea 3 datos de 5, así mismo, la
+                        validación de pregunta filtro (Consideraciones Para La Validación De Datos)</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información Cambios de Plan</td>
+                    <td>Información Cambios de Plan</td>
+                    <td>Cuando un usuario con plan ATP desea cambiar su plan actual a un plan a Pospago, control o
+                         prepago</td>
+                    <td>Se brinda información para que nuestro usuario realice el proceso</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información combos paquetes suscripciones</td>
+                    <td>Cliente acepta oferta</td>
+                    <td>Para información de paquetes, suscripciones, combos, favoritos, costos, y el usuario solicita la
+                        activación de estos</td>
+                    <td>Si llama de la misma línea no requiere validación de datos.</td>
+                    <td>Si el usuario solicita Información sobre los números Favoritos Inscritos; se deber validar con
+                        el titular de la línea 3 datos de 5, independiente que llame desde la misma línea o una
+                        diferente.</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información combos paquetes suscripciones</td>
+                    <td>Cliente no acepta oferta</td>
+                    <td>Para información de paquetes, suscripciones, combos, favoritos, costos, y el usuario no solicita
+                        la activación de estos</td>
+                    <td>Si llama de la misma línea no requiere validación de datos.</td>
+                    <td>Si el usuario solicita Información sobre los números Favoritos Inscritos; se deber validar con
+                        el titular de la línea 3 datos de 5, independiente que llame desde la misma línea o una
+                        diferente.</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información combos paquetes suscripciones</td>
+                    <td>Información combos y paquetes</td>
+                    <td>Información de paquetes, suscripciones, combos, favoritos y costos, así como la forma de
+                        activación y cancelación. También cuando se realice la modificación en CRM.</td>
+                    <td>Si llama de la misma línea no requiere validación de datos.</td>
+                    <td>Si el usuario solicita Información sobre los números Favoritos Inscritos; se deber validar con
+                        el titular de la línea 3 datos de 5, independiente que llame desde la misma línea o una
+                        diferente.</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información de tarifas</td>
+                    <td>Información de tarifas</td>
+                    <td>cuando el usuario requiere información sobre el valor de las tarifas por demanda, como por
+                        ejemplo minutos, navegación, mensajes, paquetes para ATP.</td>
+                    <td>validar información en tarifario según lo que requiera el usuario. Brindar autogestión.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información planes disponibles</td>
+                    <td>Información planes disponibles</td>
+                    <td>Cuando nuestro usuario desee conocer todo lo referente a la oferta, CB, mecánica, valores y
+                        políticas</td>
+                    <td>Se otorga la información de nuestra oferta vigente en ATP.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información servicio comunidad</td>
+                    <td>Información servicio comunidad</td>
+                    <td>Información de nuestra oferta comunidad, Suscripción, Líneas hijas, costos, forma de activación
+                        y cancelación.</td>
+                    <td>Si es por suscripción; cambio, cancelación, activación de líneas Hijas o asignación de cuotas de
+                        recursos se realiza desde CRM. Si llama desde otra línea se deben validar 3 datos de 5 y se
+                        procede con la activación por CRMEn cualquiera de los casos se brinda el proceso de auto
+                        atención (*234#) y enviar SMS WEB con los pasos</td>
+                    <td>Si el usuario solicita Información sobre los números de su CUG Inscritos; se debe validar con el
+                        titular de la línea 3 datos de 5. Independiente que llame desde la misma línea o una
+                        diferente.Para los demás procesos si llama desde otra línea se debe validar 3 datos de 5 Si
+                        llama desde la misma línea no se validan datos</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Información Servicio Extrasaldo ATP</td>
+                    <td>Información Servicio Extrasaldo ATP</td>
+                    <td>cuando el usuario desea información sobre servicio de préstamo</td>
+                    <td>se valida si el servicio esta activo en CRM. Si es necesario se intenta activar y se brinda
+                        autogestión por medio del *234</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Consulta Incremento Tarifario</td>
+                    <td>Información sobre el Incremento de tarifas.</td>
+                    <td>Se consulta el plan y se brinda la información correspondiente a las nuevas tarifas y las fechas
+                        desde las cuales aplican.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Queja Incremento Tarifas</td>
+                    <td>Cuando el usuario se encuentra en desacuerdo con las nuevas tarifas</td>
+                    <td>cuando el usuario no esta de acuerdo con el incremento y exige PQR</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Planes por Segundos</td>
+                    <td>Planes por Segundos</td>
+                    <td>Cuando el usuario desea información sobre Planes por Segundo</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Simplificacion de oferta</td>
+                    <td>Desacuerdo Mejora de plan</td>
+                    <td>Cuando el usuario se encuentra en desacuerdo con la mejora de plan</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>ATP</td>
+                    <td>Información ATP</td>
+                    <td>Simplificacion de oferta</td>
+                    <td>Informacion Mejora de plan</td>
+                    <td>Cuando el usuario desea Informacion sobre la mejora de plan</td>
+                    <td>&nbsp;</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Control y Pospago</td>
+                    <td>Incidencias</td>
+                    <td>Incidencias</td>
+                    <td>Incidencias</td>
+                    <td>Para cualquier incidencia presente en usuarios Control y Pospago</td>
+                    <td>&nbsp;</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Control y Pospago</td>
+                    <td>Información General</td>
+                    <td>Información General</td>
+                    <td>Información General</td>
+                    <td>Cuando un usuario Control y Pospago solicite Información General relacionada a su mismo servicio
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Cambio de dirección</td>
+                    <td>Cambio de dirección</td>
+                    <td>Cuando se comunica nuestro usuario solicitando modificar la Dirección de correspondencia.</td>
+                    <td>Se realiza cambio por medio de CRM, realizando las validaciones previas de Titularidad.</td>
+                    <td>Se requiere validación con el titular de la línea 3 datos de 5, así mismo, la validación de
+                        pregunta filtro (Consideraciones Para La Validación De Datos)</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Demora en reactivación</td>
+                    <td>Demora en reactivación</td>
+                    <td>Cuando nuestro usuario se comunique indicando que ya canceló la factura el pago se ve reflejado
+                        pero aún no tiene servicio.</td>
+                    <td>Si esta aplicado se procede a realizar la reactivación según las políticas.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Desacuerdos Reporte Data crédito</td>
+                    <td>Desacuerdos Reporte Data crédito</td>
+                    <td>Cuando nuestro usuario manifiesta desacuerdo con los reportes en Data crédito</td>
+                    <td>Se realiza el proceso establecido</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Explicación valores facturados</td>
+                    <td>Información valores facturados</td>
+                    <td>Cuando el usuario requiere información de los valores cobrados en su factura: Incluye
+                        explicación de factura de Pospago 5.0, también aplica para Explicación de factura Cambio de Plan
+                        ATP a Nueva oferta</td>
+                    <td>Se realiza la validación de los cobros y en caso de ser necesario o el cliente exigirlo se crea
+                        la PQR.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Explicación valores facturados</td>
+                    <td>Reclamos valores facturados</td>
+                    <td>Cuando nuestro usuario no está de acuerdo con los cobros realizados y el motivo de la llamada se
+                        extiende por la reclamación del usuario. Incluye los reclamos de Factura de Pospago 5.0</td>
+                    <td>Se realiza la validación de los cobros y en caso de ser necesario o el cliente exigirlo se crea
+                        la PQR.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Factura no llega</td>
+                    <td>Factura no llega</td>
+                    <td>Cuando nuestro usuario se comunica y nos informa que no le está llegando su factura.</td>
+                    <td>Validar en CRM la dirección de correspondencia, actualizar la dirección si es diferente previa
+                        validación de titularidad; si es correcta revisar en Radar si fue entregada</td>
+                    <td>Si es necesario modificar la dirección, se requiere validar con titular de la línea 3 datos de
+                        5, así mismo, la validación de pregunta filtro (Consideraciones Para La Validación De Datos)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Fecha de corte</td>
+                    <td>Fecha de corte</td>
+                    <td>Información de fecha de corte incluyendo ATP</td>
+                    <td>Se brinda la información e indica proceso de auto atención (*111# o *234#)</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Información Data crédito</td>
+                    <td>Información Data crédito</td>
+                    <td>Cuando el usuario solicita verificar si esta reportado en las centrales de riesgos, cuando
+                        requiere Información de las políticas de cartera que afectan estos reportes , así mismo, cuando
+                        solicita Información de Agencias de cobros</td>
+                    <td>Validar información según la solicitud del usuario, para temas de centrales de riesgo la
+                        validación se hace directamente ante dicha central (Data crédito y/o Cifin), para Agencias de
+                        cobranzas informar en línea los datos de la agencia y enviamos SMS WEB</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Información factura ATP</td>
+                    <td>Información factura ATP</td>
+                    <td>Cuando el usuario ATP desea que le expliquen lo que le están cobrando, ejemplo, la primera
+                        factura, cobros honorarios, interese por mora, seguro de equipos, cambio de plan.</td>
+                    <td>Se brinda la explicación requerida por el usuario.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Información factura ATP</td>
+                    <td>Reclamos factura ATP</td>
+                    <td>Cuando el usuario ATP esta inconforme con lo que le están cobrando, ejemplo, la primera factura,
+                        cobros honorarios, interese por mora, seguro de equipos, cambio de plan.</td>
+                    <td>Se brinda la explicación requerida por el usuario.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Información Pagos aplicados</td>
+                    <td>Información Pagos aplicados</td>
+                    <td>Se verifica información los pagos de la línea.</td>
+                    <td>Se valida la información en CI y se le indica al usuario lo que nos registra.</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular de la línea 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Línea suspendida con pago aplicado</td>
+                    <td>línea suspendida con pago aplicado</td>
+                    <td>Cuando nuestro usuario se comunique indicando que ya cancelo la factura, no tiene servicio y al
+                        revisar la línea el pago ya ingreso.</td>
+                    <td>En caso de presentar esta incidencia se trata de reconectar la línea si cumple con las
+                        políticas, de ser necesario se escala por la planilla Indicada.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Métodos de Pago</td>
+                    <td>Métodos de Pago</td>
+                    <td>Cuando nuestro usuario consulta los medios de pago para su factura.</td>
+                    <td>Se brinda la información completa de los medios de pago, según corresponda la fecha límite de
+                        pago.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Pago mal aplicado</td>
+                    <td>Pago mal aplicado</td>
+                    <td>Cuando nuestro usuario ya realizo el pago, aparece en la opción de pagos, pero no se descuenta
+                        del total de la factura por una mala aplicación.</td>
+                    <td>Se validan los pagos realizados de esa línea y si efectivamente fue mal aplicado se genera un
+                        reporte por la planilla Eros "facturación-aplicación de pagos"</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Pago no aplicado</td>
+                    <td>Pago no aplicado</td>
+                    <td>Cuando nuestro usuario realiza el pago de su factura, ya ha pasado el tiempo establecido para
+                        que el pago se vea reflejado y este no aún no se ve aplicado.</td>
+                    <td>Se validan los pagos realizados de esa línea y se verifica si están aplicados correctamente, si
+                        el usuario indica que el pago ya se realizó y esto no se ve reflejado en nuestro sistema después
+                        del tiempo establecido y cumple con las políticas se reconecta la línea por CRM de lo contrario
+                        se escala en Eros en la planilla "Facturación - Aplicación De Pagos".</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Paz y Salvo</td>
+                    <td>Paz y Salvo</td>
+                    <td>Cuando el usuario solicita el envió de paz y salvo</td>
+                    <td>Se realiza el proceso establecido, descargando el paz y salvo desde CRM</td>
+                    <td>Se requiere validar con el titular de la línea 3 datos de 5, así mismo, la validación de
+                        pregunta filtro (Consideraciones Para La Validación De Datos).</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Separación de cuentas</td>
+                    <td>Separación de cuentas</td>
+                    <td>Cuando el usuario solicita separa sus cuentas (Factura - financiación de equipo)</td>
+                    <td>Se realiza el proceso establecido, desde CRM</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Solicitud de reactivación</td>
+                    <td>solicitud de reactivación</td>
+                    <td>Cuando nuestro usuario se comunique indicando que ya canceló la factura el pago se ve reflejado
+                        pero aún no tiene servicio.</td>
+                    <td>Si esta aplicado se procede a realizar la reactivación según las políticas. Si el pago no a
+                        ingresado pero el usuario dice que ya lo realizo y solicita la reactivación se validan que
+                        cumpla las políticas, se reconecta la línea si es posible y se le indica el guion.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Suscripción de factura por email</td>
+                    <td>Suscripción de factura por email</td>
+                    <td>Cuando nuestro usuario se comunique informado que desea que le llegue la factura a su correo
+                        electrónico</td>
+                    <td>Se valida Titularidad y se realiza cambio en CRM.</td>
+                    <td>Se requiere validar con el titular de la línea 3 datos de 5, así mismo, la validación de
+                        pregunta filtro (Consideraciones Para La Validación De Datos)</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Suspensión por alto consumo</td>
+                    <td>Suspensión por alto consumo</td>
+                    <td>Cuando nuestro usuario llega a su alto consumo y es suspendido o cuando desea saber la
+                        información de este proceso.</td>
+                    <td>Se valida la línea y si la suspensión es por alto consumo, de ser así se brinda la información
+                        del proceso según las políticas, se informa el valor a pagar y como se realiza la reconexión de
+                        la línea</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Suspensión por Cartera</td>
+                    <td>Línea Suspendida por Cartera</td>
+                    <td>Cuando el usuario manifiesta que no puede hacer uso del servicio, teniendo pagos pendientes.
+                    </td>
+                    <td>Después de realizar las validaciones del estado de la línea, indicar el motivo de la suspensión,
+                        así como la información para el respectivo pago.</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular de la línea (3 datos de 5).</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Traslado de saldo</td>
+                    <td>Traslado de saldo</td>
+                    <td>Cuando el usuario solicita un traslado de saldo por los motivos disponibles en la planilla Eros
+                        (Ajustes Generales (Prepago, ATP, Control, Pospago) - Traslado de saldo</td>
+                    <td>Se realiza el escalamiento en planillas Eros (Ajustes Generales (Prepago, ATP, Control, Pospago)
+                        - Traslado de saldo y seleccionando la opción por la que se va a realizar el traslado</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Información Facturación y cartera</td>
+                    <td>Valor Fecha limite Ref. Pago</td>
+                    <td>Valor Fecha limite Ref. Pago</td>
+                    <td>Aplica también para planes ATP y en ningún caso para explicaciones de facturación. Aplica
+                        también para planes ATP y en ningún caso para explicaciones de facturación.</td>
+                    <td>Se debe realizar la transferencia al IVR por la opción "Consultar Valor a Pagar Factura_Genesys"
+                        Solo se debe trasferir en los casos en que el usuario requiera información sobre los valores de
+                        la factura del servicio. Si la consulta es para el valor a pagar de la cuota del equipo se
+                        brinda la información en línea Si el usuario no desea ser trasferido Se brinda la información e
+                        indica proceso de auto atención (*111# o *234#), además Se envía SMS WEB con los pasos de auto
+                        atención</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Reversion Pago debitado</td>
+                    <td>Desacuerdo con el pago electrónico</td>
+                    <td>Desacuerdo con el pago electrónico</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular de la línea 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Reversion Pago debitado</td>
+                    <td>Fraude Valor debitado</td>
+                    <td>Fraude Valor debitado</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular de la línea 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Facturación y Cartera</td>
+                    <td>Reversion Pago debitado</td>
+                    <td>No reconoce debito</td>
+                    <td>No reconoce debito</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Desde el mismo móvil no requiere validación, si se comunica de otra línea, validar con el
+                        titular de la línea 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>App Smart</td>
+                    <td>Incidencias Deezer o Tigo</td>
+                    <td>Incidencias Deezer o Tigo</td>
+                    <td>Cuando el cliente se comunica indicando que no funciona su app de deezer, no reproduce
+                        canciones, no le permite adelantar o retroceder carpetas, o aparece publicidad.</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>App Smart</td>
+                    <td>No permite activar</td>
+                    <td>No permite activar</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>App Smart</td>
+                    <td>No permite Modificar</td>
+                    <td>No permite Modificar</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Backtones Tigo</td>
+                    <td>Incidencias Backtones Tigo</td>
+                    <td>Incidencias Backtones Tigo</td>
+                    <td>Cuando nuestro usuario presenta inconvenientes con su backtone porque no se reproduce o se
+                        escucha mal, cuando se generan cobros errados.</td>
+                    <td>Se escalan en Eros en la planilla "Backtones - No Se Reproduce" los casos en que el usuario
+                        manifieste que su Backtone no se está reproduciendo, verificando antes que en la plataforma de
+                        Backtones se encuentre activo.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Backup de contactos</td>
+                    <td>Incidencias backup de contactos</td>
+                    <td>Incidencias backup de contactos</td>
+                    <td>Cuando nuestro usuario presenta incidencias con el servicio o cobros errados</td>
+                    <td>Revisión de las políticas y estado de la línea, escalamiento en EROS en la planilla "Ajustes
+                        BackUp de contactos" y/o utilización de guiones autorizados</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Banca Móvil</td>
+                    <td>Incidencias Banca Móvil</td>
+                    <td>Incidencias Banca Móvil</td>
+                    <td>Cuando nuestro usuario manifiesta inconvenientes con el servicio de Banca Móvil.</td>
+                    <td>Revisión de las políticas y estado de la línea, escalar por Eros en la planilla
+                        Facturación-Banca Móvil.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Descarga de Contenidos</td>
+                    <td>Incidencias Descarga de Contenidos</td>
+                    <td>Incidencias Descarga de Contenidos</td>
+                    <td>Cuando nuestro usuario presenta problemas para descargar cualquier tipo de servicio al móvil,
+                        como aplicaciones o diferentes contenidos.</td>
+                    <td>Revisión de las políticas y estado de la línea, en caso de ser necesario crear PQR.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Extrasaldo</td>
+                    <td>Incidencias Extrasaldo Min Salvavidas</td>
+                    <td>Incidencias Extrasaldo Min Salvavidas</td>
+                    <td>Cuando nuestro usuario cumple con las políticas, pero presenta incidencias con Extrasaldo,
+                        Servicio Salva Vidas y Presta Productos, con los cobros o niega haber utilizado el servicio de
+                        Extrasaldo para Prepago y Cuenta Control diferente a ATP.</td>
+                    <td>Realizar las validaciones establecidas: El estado de la línea, explicar cobros y montos
+                        asignados, realizar el reporte en listas negras si el usuario lo solicita o remitirlo al portal
+                        Tigo Online, para los casos donde el usuario solicite ajuste o se detecta una incidencia de
+                        Extrasaldo, Servicio Salva Vidas y Presta Productos, se debe escalar en la planilla Eros -
+                        "Promociones - Ajustes Extrasaldo",</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Fallo SMS</td>
+                    <td>Fallo Envio de SMS</td>
+                    <td>Fallo Envio de SMS</td>
+                    <td>Cuando nuestro usuario presenta falla de envío de SMS puede ser por regiones o en general del
+                        territorio nacional.</td>
+                    <td>Verificar el estado de línea, se realizan las validaciones establecidas según el manual de
+                        Inconvenientes con Mensajes de Texto, si es necesario configuraciones se brindan y se envía SMS
+                        con la información; si persiste el inconveniente se Brinda el siguiente Guion:Señor(a) xxx le
+                        informamos que hemos realizado la validación de su línea y la mismo no presenta restricciones ni
+                        bloqueos que afecten el uso de nuestro servicios. Le recomendamos que reinicie su equipo para
+                        validar su funcionamiento o si usted lo prefiere, procederé a crear una PQR y le daremos una
+                        respuesta formal a su caso." Fallas masivas: Cuando se presentan fallas masivas por regiones o
+                        en general del territorio nacional no se brinda configuración, se brinda guion autorizado por la
+                        contingencia</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Fallo SMS</td>
+                    <td>Fallo recepción de SMS</td>
+                    <td>Fallo recepción de SMS</td>
+                    <td>Cuando nuestro usuario presenta fallas con la recepción de SMS puede ser por regiones o en
+                        general del territorio nacional.</td>
+                    <td>Verificar el estado de línea, se realizan las validaciones establecidas según el manual de
+                        Inconvenientes con Mensajes de Texto, si es necesario configuraciones se brindan y se envía SMS
+                        con la información; si persiste el inconveniente se Brinda el siguiente Guion:Señor(a) xxx le
+                        informamos que hemos realizado la validación de su línea y la mismo no presenta restricciones ni
+                        bloqueos que afecten el uso de nuestro servicios. Le recomendamos que reinicie su equipo para
+                        validar su funcionamiento o si usted lo prefiere, procederé a crear una PQR y le daremos una
+                        respuesta formal a su caso.Fallas masivas: Cuando se presentan fallas masivas por regiones o en
+                        general del territorio nacional no se brindan configuraciones y/o se brinda guion autorizado por
+                        la contingencia.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Inconveniente con marcación ASTERISCO 111</td>
+                    <td>&nbsp;</td>
+                    <td>Inconveniente con marcación ASTERISCO 111</td>
+                    <td>Cuando nuestro usuario manifiesta inconveniente con la marcación *111#</td>
+                    <td>Si es falla masiva se escala el caso en la planilla y/o se brinda guion autorizado, si son casos
+                        puntuales se valida el estado del móvil, si es un problema de momento (anteriormente le
+                        funcionaba) se brinda proceso de desvíos y restricciones y se solicita que intente nuevamente,
+                        si nunca le ha funcionado se genera la PQR</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Inconveniente con marcación ASTERISCO 234</td>
+                    <td>&nbsp;</td>
+                    <td>Inconveniente con marcación ASTERISCO 234</td>
+                    <td>Cuando nuestro usuario manifiesta inconvenientes con este menú interactivo.</td>
+                    <td>Si es falla masiva se escala el caso en la planilla y/o se brinda guion autorizado, si son casos
+                        puntuales se valida el estado del móvil, si es un problema de momento (anteriormente le
+                        funcionaba) se brinda proceso de desvíos y restricciones y se solicita que intente nuevamente,
+                        si nunca le ha funcionado se genera la PQR</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Inconvenientes compensación fallas de red</td>
+                    <td>Inconvenientes compensación fallas de red</td>
+                    <td>Inconvenientes compensación fallas de red</td>
+                    <td>Cuando nuestro cliente solicita compensación por la no prestación del servicio, por daños y
+                        perjuicios o porque no está de acuerdo con cualquier tipo de compensación aplicada.</td>
+                    <td>Realizar la validación necesaria sobre el inconveniente del usuario, escalar por planilla si
+                        aplica o crear PQR en caso de ser necesario</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Inconvenientes llamadas 300</td>
+                    <td>&nbsp;</td>
+                    <td>Inconvenientes llamadas 300</td>
+                    <td>Cuando nuestro usuario manifiesta que no puede realizar llamadas al asterisco 300, sin tener
+                        inconveniente con otras llamadas.</td>
+                    <td>Si es falla masiva se escala el caso en la planilla y/o se brinda guion autorizado, si son casos
+                        puntuales se valida el estado del móvil, si es un problema de momento (anteriormente le
+                        funcionaba) se brinda proceso de desvíos y restricciones, se solicita que intente nuevamente, si
+                        nunca le ha funcionado se genera la PQR</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>LARGA DISTANCIA</td>
+                    <td>Incidencias Larga distancia</td>
+                    <td>Incidencias Larga distancia</td>
+                    <td>Cuando nuestro usuario se comunica manifestando problemas con marcación, cobros errados,
+                        nacional e internacional, líneas 01800 y códigos cortos (números de emergencia)</td>
+                    <td>Se realizan las validaciones de las políticas y estado de la línea, escalamiento en las
+                        planillas asignadas para cada incidencia y/o utilización de guiones autorizados, así mismo,
+                        crear PQR en caso de ser necesario (Inconvenientes Puntuales o exigencia del usuario).</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Numero ff ilimitado prepago</td>
+                    <td>Incidencias Números ff ilimitado prepago</td>
+                    <td>Incidencias Números ff ilimitado prepago</td>
+                    <td>Cuando nuestro usuario manifiesta incidencias en la compra o asignación de recursos y al validar
+                        cumple con las políticas de la promoción.</td>
+                    <td>Revisión de las políticas y estado de la línea, escalamiento en la planillas Eros Ajustes
+                        Generales (Prepago - ATP - Control - Pospago 5.1 y 5.2) según el inconveniente del usuario y/o
+                        utilización de guiones autorizados.(Si es masivo uso de guiones establecidos.)</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Paquetes de Voz</td>
+                    <td>Incidencias paquetes de voz</td>
+                    <td>Incidencias paquetes de voz</td>
+                    <td>Cuando nuestro usuario manifiesta inconvenientes para la compra de paquete de Voz o asignación
+                        de los recursos.</td>
+                    <td>Inconvenientes para Compra de Paquetes: Validar estado de la línea, saldo disponible y medio de
+                        compra, (Intento de compra de paquete por CM - Proceso SPC)en caso de seguir presentando
+                        inconveniente se escala en planilla Eros llamada "Fallas - Compra Paquete o Suscripciones"</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>paquetes Epin</td>
+                    <td>Incidencias Paquetes Epin</td>
+                    <td>Incidencias Paquetes Epin</td>
+                    <td>Cuándo nuestro usuario se comunica manifestando inconvenientes con la compra de Paquetes
+                        Epin.(No aplica para vendedores)</td>
+                    <td>Se valida el estado de la línea y que los recursos se hayan entregado. Si el inconveniente es
+                        por equivocación al entregar los recursos, es el vendedor de E-pin quien es el responsable y
+                        quien debe hacer el ajuste.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Paquetes LDI</td>
+                    <td>Incidencias Paquetes LDI</td>
+                    <td>Incidencias Paquetes LDI</td>
+                    <td>Cuando nuestro usuario se comunica manifestando inconvenientes con los paquetes de LDI.</td>
+                    <td>Realizar las validaciones necesarias de los paquetes y del servicio, en caso de presentarse
+                        incidencia porque el usuario activó el paquete de LDI y no lo puede utilizar, no lo ha
+                        solicitado o se le cobra la llamada del saldo y no del paquete, se debe realizar el escalamiento
+                        en la planilla Eros llamada "Ajustes - Prepago LDI" y brindar el guion establecido para ajustes.
+                    </td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Regalos Tigo</td>
+                    <td>Incidencias Regalos Tigo</td>
+                    <td>Incidencias Regalos Tigo</td>
+                    <td>Cuando nuestro usuario se comunica manifestando inconvenientes para redimir los Regalos Tigo o
+                        para recibir los recursos y al validar cumple con las políticas.</td>
+                    <td>Realizar las validaciones establecidas y en caso de detectar incidencia con los Regalos Tigo
+                        escalar en la planilla Eros - "Ajustes Generales (Prepago, ATP, Control, Pospago)"</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Roaming Internacional</td>
+                    <td>Incidencias Roaming</td>
+                    <td>Incidencias Roaming</td>
+                    <td>Cuando nuestro usuario presenta inconvenientes con el servicio de Roaming Internacional, ya sea
+                        en la activación o al encontrarse en el exterior sin poder utilizarlo</td>
+                    <td>Revisión de las políticas y estado de la línea, realizar procedimiento según el manual de
+                        incidencias Roaming Internacional, si persiste el inconveniente se escala en las planillas
+                        asignadas y/o utilización de guiones autorizados.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Servicio DAR</td>
+                    <td>Incidencias Servicio DAR</td>
+                    <td>Incidencias Servicio DAR</td>
+                    <td>Cuando nuestro usuario presenta inconvenientes con el servicio DAR o tiene cobros errados.</td>
+                    <td>Revisión de las políticas y estado de la línea, escalamiento en las planillas asignadas</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>Tigo Music</td>
+                    <td>Incidencias Deezer</td>
+                    <td>Incidencias Deezer</td>
+                    <td>Cuando el cliente se comunica indicando que no funciona su app de deezer, no reproduce
+                        canciones, no le permite adelantar o retroceder carpetas, o aparece publicidad.</td>
+                    <td>Realizar las validaciones de la cuenta por medio del aplicativo de Momac y Deezer, si todo se
+                        encuentra correctamente se procede con el escalamiento en la planilla "IG - Fallas - Deezer -
+                        Tigo Music".</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Fallas de servicio</td>
+                    <td>WhatsApp Ilimitado</td>
+                    <td>Incidencias WhatsApp ilimitado</td>
+                    <td>Incidencias WhatsApp ilimitado</td>
+                    <td>Cuando el usuario se comunica manifestando sólo inconvenientes con el servicio de WhatsApp
+                        Ilimitado</td>
+                    <td>Se realizan las validaciones establecidas para WhatsApp ilimitado, en caso de cumplir con éstas,
+                        realizar la verificación según el manual de configuración servicios de Datos y escalar en Eros
+                        por la planilla "Falla de Datos convencionales" en caso de ser necesario.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información de equipos</td>
+                    <td>disponibilidad de Inventario</td>
+                    <td>&nbsp;</td>
+                    <td>disponibilidad de Inventario</td>
+                    <td>Cuando nuestro usuario se comunica consultando en cuál de los CDET, se encuentra disponible
+                        alguna referencia de equipo.</td>
+                    <td>Se consulta la disponibilidad en CRM y se brinda la información con guion establecido.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Aplicaciones móviles Tigo</td>
+                    <td>información App</td>
+                    <td>información App</td>
+                    <td>Cuando nuestro usuario solicita información de las aplicaciones Tigo Shop, Tigo App</td>
+                    <td>Se brinda toda la información de las aplicaciones( forma de descarga, costo, funcionalidad)</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Backup de contactos</td>
+                    <td>Información Backup de Contactos</td>
+                    <td>Información Backup de Contactos</td>
+                    <td>Cuando nuestro usuario solicita información, activación y cancelación del servicio</td>
+                    <td>Se brinda toda la información del producto: costo, vigencia, mecánica y se envía SMS en caso de
+                        cancelación.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Banca Móvil</td>
+                    <td>Información Banca Móvil</td>
+                    <td>Información Banca Móvil</td>
+                    <td>Cuando nuestro usuario solicita información relacionada con el servicio de Banca Móvil, incluye
+                        activación y cancelación del servicio.</td>
+                    <td>Se brinda la información solicitada por el usuario sobre este servicio.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Compensación por fallas de red</td>
+                    <td>Compensación por fallas de red</td>
+                    <td>Compensación por fallas de red</td>
+                    <td>Información de los minutos que se compensan por fallas de red (llamadas caídas e
+                        Indisponibilidad del servicio)</td>
+                    <td>Se brinda la información y guion establecido en los casos que aplique</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Consulta de Cobertura</td>
+                    <td>&nbsp;</td>
+                    <td>Consulta de Cobertura</td>
+                    <td>Cuando nuestro usuario desea conocer la cobertura de nuestra compañía, el tipo de tecnología
+                        (2G/3G/4G) o cuando el usuario manifiesta fallas y se identifica que es por falta de cobertura.
+                    </td>
+                    <td>Se valida la información, se brinda al usuario y enviamos el SMS con la información solicitada
+                    </td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Desmonte de 4G LTE</td>
+                    <td>Inconformidad con el proceso</td>
+                    <td>Inconformidad con el proceso</td>
+                    <td>Cuando el usuario presenta cualquier inconformidad relacionada al Desmonte de 4G LTE</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Desmonte de 4G LTE</td>
+                    <td>Informacion del proceso</td>
+                    <td>Informacion del proceso</td>
+                    <td>Cuando el usuario solicita información sobre el Desmonte de 4G LTE</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Envio de carta por PQR</td>
+                    <td>Envio de carta por PQR</td>
+                    <td>Envio de carta por PQR</td>
+                    <td>Cuando el usuario solicita le sea enviada la respuesta de alguna PQR</td>
+                    <td>&nbsp;</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Información PQR SS RRSA</td>
+                    <td>Información PQR SS RRSA</td>
+                    <td>Información PQR SS RRSA</td>
+                    <td>Cuando el usuario se comunica solicitando información del estado de una PQR o para solicitar la
+                        respuesta de la misma.</td>
+                    <td>Se valida el estado o la respuesta de la PQR y se brinda la información.</td>
+                    <td>Si es para informar el estado no se validan datos.</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Información Procedimientos</td>
+                    <td>seguro de equipos</td>
+                    <td>seguro de equipos</td>
+                    <td>Cuando el usuario se comunica para validar información general del servicio de seguro de
+                        equipos. Mecánica de activación, reclamación , políticas</td>
+                    <td>&nbsp;</td>
+                    <td>Si es para brindar la respuesta de una PQR se deben validar datos del titular de la línea o de
+                        la persona que interpuso el requerimiento (3 datos de 5)</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Información Procedimientos</td>
+                    <td>suspensión por fraude</td>
+                    <td>suspensión por fraude</td>
+                    <td>Cuando nuestro usuario se comunica informando que no puede usar el servicio e identificamos que
+                        tiene la línea suspendida por fraude o cuando el usuario tiene conocimiento de esta suspensión.
+                        También aplica para BlackBerry en los casos que No navega por las condiciones del paquete
+                        (Usuario con plan BB navegando en Androide y viceversa).Nota: cuando el cliente está navegando
+                        con un paquete que no le aplica para su tipo de equipo, acarrea fugas en la navegación que se
+                        traduce en fuga de ingresos. Dado lo anterior la empresa le bloquea la navegación y le brinda un
+                        paquete de navegación convencional. En estos casos no se hace escalamiento y lo que se le
+                        informa al cliente es que en el próximo corte del paquete, adquiera uno que sea acorde a su
+                        dispositivo (Móvil)</td>
+                    <td>Se valida el estado de la línea y se brinda el guion establecido.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Información Puntos de Servicio</td>
+                    <td>Información Puntos de Servicio</td>
+                    <td>Información Puntos de Servicio</td>
+                    <td>Cuando el cliente se comunica a solicitar información sobre direcciones y horarios de atención
+                        de nuestros Centros de Experiencia Tigo.</td>
+                    <td>Se consulta y se brinda la información de 2 Centros de Experiencia Tigo, si se requieren más, se
+                        brindan medios de autogestión, a través de nuestra aplicación Tigo App, página web
+                        www.tigo.com.co o marcando *300 y siguiendo las instrucciones"</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Información SMS fraudulentos</td>
+                    <td>Información SMS fraudulentos</td>
+                    <td>Información SMS fraudulentos</td>
+                    <td>Cuando nuestro usuario recibe SMS o llamadas informando sobre premios o regalos otorgados por
+                        nuestra compañía o de otras entidades de promociones que no existen.</td>
+                    <td>Se valida si la información que recibió el usuario hace parte de nuestra oferta, de lo contrario
+                        se indica que posiblemente es un fraude y se realiza escalamiento en Eros por la planilla IG -
+                        SMS Fraudulentos.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Larga distancia</td>
+                    <td>Información Larga distancia</td>
+                    <td>Información Larga distancia</td>
+                    <td>Cuando nuestro usuario solicita información de LDI. Aplica para Información de larga distancia
+                        nacional e internacional, marcaciones a líneas 01800 y códigos cortos (números de emergencia);
+                        no aplica para Información de paquetes LDI ni para Información de SMS internaciones, éstos
+                        tienen su propia tipología.</td>
+                    <td>Se otorga la información solicitada sobre el servicio como marcación, políticas, tarifas y se
+                        envía SMS con la información en caso de aplicar.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Navegación por demanda</td>
+                    <td>Navegación por demanda</td>
+                    <td>Navegación por demanda</td>
+                    <td>Cuando nuestro usuario tiene o no algún paquete de datos activo, se le genera el cobro de
+                        navegación por demanda y se le descuenta del saldo que tenga la línea.</td>
+                    <td>Validar el estado de la línea y cobros realizados. Escalamiento en la planilla Eros "Navegación
+                        por Demanda" para generar la restricción de la navegación por demanda y/o el ajuste en caso de
+                        ser requerido, no se ofrece proactivamente.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Numero de Teléfono asignado</td>
+                    <td>Numero de Teléfono asignado</td>
+                    <td>Numero de Teléfono asignado</td>
+                    <td>Cuando nuestro usuario desea conocer el número de su línea.</td>
+                    <td>Cuando nuestro usuario se comunique para solicitar información del número de la línea, si no
+                        manifiesta que es el número del cual llama siempre preguntaremos ¿Es para la línea de la cual se
+                        comunica?. Si es del que llama el proceso será brindarlo en línea y enviar SMS web con la forma
+                        de consulta. Si es de otra línea se informa código de consulta y se envía SMS web con
+                        información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Buzon de voz</td>
+                    <td>Buzon de voz</td>
+                    <td>Cuando nuestro usuario se comunique solicitando información sobre activación o cancelación,
+                        marcación, políticas e incidencias.</td>
+                    <td>Activación y cancelación: Se realiza el proceso solicitado desde nuestro Contact Center</td>
+                    <td>Si es para la misma línea de la que llama no se requiere validación de datos. Si es para una
+                        línea diferente debe ser el titular quien presente la solicitud y validar 3 datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Desvio de llamadas</td>
+                    <td>Desvio de llamadas</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información sobre el desvió de llamadas.</td>
+                    <td>La activación de desvió de llamada como servicio, actualmente NO se encuentra habilitado en
+                        ningún canal de nuestra compañía, debe activarse desde el equipo móvil a través de configuración
+                        brindar línea del fabricante y enviar SMS con la información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Informacion Amazon Prime</td>
+                    <td>Informacion Amazon Prime</td>
+                    <td>Cuando el usuario solicita información relacionada a Amazon Prime</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Información Tigo on Line</td>
+                    <td>Información Tigo on Line</td>
+                    <td>Cuando el cliente solicite información del portal Tigo On Líne, uso, servicios, entre otros.
+                        Además es una opción cuando el usuario desea conocer el detalle de consumo de su línea Tigo</td>
+                    <td>Brindar información de como acceder al portal Tigo On Líne. Enviar SMS con la información de
+                        como acceder al portal si aplica.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Numero privado</td>
+                    <td>Numero privado</td>
+                    <td>Cuando nuestro usuario solicita información, activación, cancelación, incidencia del servicio.
+                    </td>
+                    <td>Información: Se brindan las políticas, mecánica y costo.</td>
+                    <td>Para activación o cancelación del servicio, se valida 3 datos de 5 con el titular de la línea.
+                        En caso de no llamar el titular, solicitamos ser comunicados con él para realizar el proceso, de
+                        no ser posible no se realiza.</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Otros Servicios de Datos</td>
+                    <td>Otros Servicios de Datos</td>
+                    <td>Cuando nuestro usuario solicita información relacionada con los servicios de datos que no tengan
+                        un nodo específico. No aplica para paquetes de navegación</td>
+                    <td>Se brinda la información de mecánica, tarifas, políticas, se envía SMS si aplica.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Pagina Web Tigo</td>
+                    <td>Pagina Web Tigo</td>
+                    <td>Cuando el cliente solicita Información acerca de la página web www.tigo.com.co</td>
+                    <td>Se brinda toda la información solicitada.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Otros servicios</td>
+                    <td>Restricción de llamadas</td>
+                    <td>Restricción de llamadas</td>
+                    <td>Se usa cuando nuestro usuario manifieste que desea restringir las llamadas y mensajes de Texto
+                        entrantes o salientes (es una funcionalidad dependiendo de las características del equipo).</td>
+                    <td>Se brinda la información del servicio de Restricción de Llamadas y Mensajes de Texto.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Portabilidad Numérica</td>
+                    <td>Consulta estado de portación</td>
+                    <td>Consulta estado de portación</td>
+                    <td>Cuando un cliente solicita información sobre el estado de la solicitud o la fecha en que
+                        quedaría lista (Ver en portaflow o en CRM/Consultas - Portabilidad/Resumen) Indicar estado y
+                        fecha.</td>
+                    <td>Se consulta y se brinda la información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Portabilidad Numérica</td>
+                    <td>Incidencias solicitud portación</td>
+                    <td>Incidencias solicitud portación</td>
+                    <td>Cuando un cliente pide información sobre su portación porque ya se venció el ANS y aún no ha
+                        podido disfrutar del servicio. Cuando hay una falla detectada y debemos indicar algún guion.
+                    </td>
+                    <td>Se consulta y se brinda la información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Portabilidad Numérica</td>
+                    <td>Portabilidad a Pospago desde IG</td>
+                    <td>Portabilidad a Pospago desde IG</td>
+                    <td>Cuando realizamos el proceso de portabilidad pospago desde IG</td>
+                    <td>Debemos realizar las validaciones necesarias para proceder con el escalamiento en la planilla
+                        correspondiente y así agendar la entrega del CHIP Tigo.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Portabilidad Numérica</td>
+                    <td>Quiero portarme a Tigo</td>
+                    <td>Quiero portarme a Tigo</td>
+                    <td>Cuando un cliente manifiesta intensión de portarse a nuestro operador, viene de otro operador y
+                        debemos brindarle toda la información sobre el proceso</td>
+                    <td>Se brinda la información solicitada del servicio de Portabilidad: tarifas, políticas, mecánica.
+                    </td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Roaming Internacional</td>
+                    <td>Activación Roaming</td>
+                    <td>Activación Roaming</td>
+                    <td>Cuando nuestro usuario solicita activación del servicio de Roaming</td>
+                    <td>se genera activación a través de CRM y se brinda proceso de autogestión</td>
+                    <td>Se validan 3 datos de 5 con el titular de la línea o Contacto Autorizado.</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Roaming Internacional</td>
+                    <td>Información Roaming</td>
+                    <td>Información Roaming</td>
+                    <td>Cuando nuestro usuario solicita información sobre el servicio de Roaming: costos, políticas,
+                        mecánica y cancelación. No aplica cuando informamos configuración de red a través de Mundo Tigo
+                        en la opción Roaming Int, en este caso se tipificaría como Fallas de Llamadas / Fallas todas las
+                        llamadas / Cumple con validaciones se configura.</td>
+                    <td>Se brinda la información solicitada del servicio de Roaming: tarifas, políticas, mecánica,
+                        cancelación y se envía SMS con el proceso de auto atención.</td>
+                    <td>Si es para información no se validan datos. Para cancelación se validan 3 datos de 5 con el
+                        Titular de la línea o Contacto Autorizado</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Roaming Nacional</td>
+                    <td>Información Roaming</td>
+                    <td>Información Roaming</td>
+                    <td>Cuando nuestro usuario solicita información sobre el servicio de Roaming: costos, políticas,
+                        mecánica y cancelación. No aplica cuando informamos configuración de red a través de Mundo Tigo
+                        en la opción Roaming Int, en este caso se tipificaría como Fallas de Llamadas / Fallas todas las
+                        llamadas / Cumple con validaciones se configura.</td>
+                    <td>Se brinda la información solicitada del servicio de Roaming: tarifas, políticas, mecánica,
+                        cancelación y se envía SMS con el proceso de auto atención.</td>
+                    <td>Si es para información no se validan datos. Para cancelación se validan 3 datos de 5 con el
+                        Titular de la línea o Contacto Autorizado</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Servicio DAR</td>
+                    <td>Información Servicio DAR</td>
+                    <td>Información Servicio DAR</td>
+                    <td>Cuando nuestro usuario solicita información del servicio DAR.</td>
+                    <td>Se brinda toda la información del servicio, costo, políticas, mecánica y se envía SMS con el
+                        proceso de marcación.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Servicio de SMS</td>
+                    <td>Envio de SMS</td>
+                    <td>Envio de SMS</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información del servicio de mensajes.</td>
+                    <td>Se brinda toda la información del servicio: costo, vigencia, mecánica.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Servicio de SMS</td>
+                    <td>SMS por cobrar Por Regalar</td>
+                    <td>SMS por cobrar Por Regalar</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información del servicio de mensaje por cobrar o
+                        por regalar</td>
+                    <td>Se brinda toda la información del servicio: costo, vigencia, mecánica y se envía SMS con el
+                        proceso de auto atención.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Información General y Asesoría</td>
+                    <td>Tigo Music</td>
+                    <td>Información Deezer</td>
+                    <td>Información Deezer</td>
+                    <td>Cuando nuestro usuario solicita información del servicio Deezer (Tigo Music).</td>
+                    <td>Se brinda toda la información del servicio: costo, vigencia, mecánica y se envía SMS en caso de
+                        activación o registro.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Cambio de Plan</td>
+                    <td>Oferta televentas</td>
+                    <td>Desacuerdo con el cambio</td>
+                    <td>En el momento que uno de nuestros usuarios este en desacuerdo con el cambio realizado desde
+                        nuestras unidades de campañas de salida.</td>
+                    <td>No aplica</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Cambio de Plan</td>
+                    <td>Oferta televentas</td>
+                    <td>Información valores facturados</td>
+                    <td>Cuando el usuario control(diferente a ATP) desea que le expliquen lo que le están cobrando,
+                        ejemplo, la primera factura, cobros honorarios, interese por mora, seguro de equipos, cambio de
+                        plan.</td>
+                    <td>Se brinda la explicación requerida por el usuario.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Cliente no Responde</td>
+                    <td>Cliente no Responde</td>
+                    <td>Cliente no Responde</td>
+                    <td>Cuando nuestro usuario se comunica y deja el asesor en línea esperando por más de 30 segundos y
+                        no retoma la llamada.</td>
+                    <td>Se otorga Guion según protocolo de servicio</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamada inescrupulosa</td>
+                    <td>Llamada inescrupulosa</td>
+                    <td>Llamada inescrupulosa</td>
+                    <td>En el momento que uno de nuestros usuarios este molesto, nos insulta, es vulgar en la
+                        conversación o cuando sea un menor molestando (la llamada sea algo sinsentido).</td>
+                    <td>Se brinda el guion establecido "LLAMADAS PERSONAS INESCRUPULOSAS"</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamada Muda</td>
+                    <td>Llamada Muda</td>
+                    <td>Llamada Muda</td>
+                    <td>Cuando después de contestar la llamada no se obtiene respuesta por parte de nuestro usuario.
+                    </td>
+                    <td>Se Otorga Guion según Protocolo de servicio</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>llamadas especiales</td>
+                    <td>Llamada otros servicios</td>
+                    <td>Llamada otros servicios</td>
+                    <td>Llamada otros servicios</td>
+                    <td>Para los casos donde se comuniquen usuarios solicitando información no relacionada con Tigo
+                        (Solicita información de  otros operadores, números para pedir domicilios o se comunican porque
+                        quieren que los transfiera a otro asesor diferente entre otros más).</td>
+                    <td>No aplica</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamada se cae o cliente cuelga</td>
+                    <td>Llamada se cae o cliente cuelga</td>
+                    <td>Llamada se cae o cliente cuelga</td>
+                    <td>Cuando nuestro usuario se comunica y la llamada se cae o él cuelga sin que se logre identificar
+                        el motivo de la llamada</td>
+                    <td>Si nuestro usuario informó motivo y ya se había solucionado no se debe cambiar la tipificación,
+                        se Otorga Guion según Protocolo de servicio, cuando se cae la llamada y aun no se había
+                        seleccionado ningún nodo.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Retención</td>
+                    <td>Ajustes y cancelaciones pendientes</td>
+                    <td>Ajustes y cancelaciones</td>
+                    <td>Para los casos en que se comunica el usuario indicando que cuenta con ajustes y cancelaciones
+                        pendientes por parte del área de Fidelización</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Retención</td>
+                    <td>Información aplicación ajustes y cancelación del servicio</td>
+                    <td>Información aplicación ajustes y cancelación del servicio</td>
+                    <td>Cuando el usuario solicita información sobre Información aplicación ajustes y cancelación del
+                        servicio</td>
+                    <td>&nbsp;</td>
+                    <td>Se valida 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia a IVR</td>
+                    <td>Transferencia a IVR</td>
+                    <td>Transferencia a IVR</td>
+                    <td>Cuando se transfiere a nuestro audio respuesta porque el proceso así lo establece y no se tenga
+                        un nodo específico para el requerimiento o por solicitud del usuario</td>
+                    <td>Se valida que el motivo de la llamada si deba ser transferido a nuestro IVR y se realiza la
+                        transferencia.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia a Une</td>
+                    <td>Transferencia a Une</td>
+                    <td>Transferencia a Une</td>
+                    <td>Cuando se reciban llamadas relacionada con el portafolio de UNE, o se identifique que el cliente
+                        realiza preguntas con servicio de televisión, telefonía fija, Banda Ancha, entre otros,
+                        diferentes a Tigo, debe transferir a UNE</td>
+                    <td>Identificar que el servicio que se solicita pertenece al portafolio de UNE, se debe brindar el
+                        guion establecido y trasferir a UNE.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia B2B Móvil</td>
+                    <td>Transferencia B2B Móvil</td>
+                    <td>Transferencia B2B Móvil</td>
+                    <td>Cuando se reciban llamadas relacionada con el portafolio de B2B, o se identifique que el cliente
+                        realiza preguntas con servicios corporativos, diferentes a servicios masivos Tigo, y se debe
+                        transferir a B2B</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia REPOCHIP</td>
+                    <td>Reposición de CHIP ATP</td>
+                    <td>Registro de Formulario</td>
+                    <td>Aplica para los casos se realice ofrecimiento de reposición a domicilio, bien sea por cambio,
+                        actualización, daño o para recuperarla después de un proceso de suspensión por robo o pérdida.
+                    </td>
+                    <td>Tener presente que únicamente aplica para Medellín, Bogotá Barranquilla y municipios cercanos
+                        (específicamente Envigado, Itagüí, sabaneta, Soacha, Barranquilla zona urbana). Se podrá
+                        realizar registro del formulario web al titular de la línea o un tercero. Para el
+                        diligenciamiento del formulario Utilizaremos el siguiente guion: Sr / Sra.: con el fin de
+                        realizar el agendamiento de la entrega del chip de reposición llenaremos un formulario con los
+                        datos del titular del servicio, en el transcurso de 30 minutos nuestra empresa de mensajería se
+                        comunicará con usted al número de contacto que nos suministra, para confirmar la fecha y hora de
+                        entrega de su predilección.</td>
+                    <td>Si afirma ser el Titular y desea solicitar el servicio, realizamos validación en línea de 3
+                        datos de 5. Para información, mecánica o estado del pedido no se requiere generar validación de
+                        datos Si es un tercero y acepta el envío de chip se Registra el Formulario. Siempre y cuando
+                        confirme que el titular puede estar para la entrega del chip?. Tener presente que solo será
+                        entregado a titulares de la línea con previa validación de documento de identidad original</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia REPOCHIP</td>
+                    <td>Reposición de CHIP ATP HVC</td>
+                    <td>Registro de Formulario</td>
+                    <td>Aplica para los casos se realice ofrecimiento de reposición a domicilio, bien sea por cambio,
+                        actualización, daño o para recuperarla después de un proceso de suspensión por robo o pérdida.
+                    </td>
+                    <td>Tener presente que únicamente aplica para Medellín, Bogotá Barranquilla y municipios cercanos
+                        (específicamente Envigado, Itagüí, sabaneta, Soacha, barranquilla zona urbana). Para saber si el
+                        cliente es de alto valor, debemos ingresar en la vista de CI "CLIENTES ALTO VALOR" Se podrá
+                        realizar registro del formulario web al titular de la línea o un tercero. Para el
+                        diligenciamiento del formulario Utilizaremos el siguiente guion: Sr / Sra.: con el fin de
+                        realizar el agendamiento de la entrega del chip de reposición llenaremos un formulario con los
+                        datos del titular del servicio, en el transcurso de 30 minutos nuestra empresa de mensajería se
+                        comunicará con usted al número de contacto que nos suministra, para confirmar la fecha y hora de
+                        entrega de su predilección. IMPORTANTE: los clientes HVC (Clientes de Alto Valor) tienen el
+                        servicio gratuito.</td>
+                    <td>Si afirma ser el titular y desea solicitar el servicio, realizamos validación en línea de 3
+                        datos de 5. Para información, mecánica o estado del pedido no se requiere generar validación de
+                        datos Si es un tercero y acepta el envío de chip se Registra el Formulario. Siempre y cuando
+                        confirme que el titular puede estar para la entrega del chip?. Tener presente que solo será
+                        entregado a titulares de la línea con previa validación de documento de identidad original</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia REPOCHIP</td>
+                    <td>Reposición de CHIP PREPAGO</td>
+                    <td>Registro de Formulario</td>
+                    <td>Aplica para los casos se realice ofrecimiento de reposición a domicilio, bien sea por cambio,
+                        actualización, daño o para recuperarla después de un proceso de suspensión por robo o pérdida.
+                    </td>
+                    <td>Tener presente que únicamente aplica para Medellín, Bogotá Barranquilla y municipios cercanos
+                        (específicamente Envigado, Itagüí, sabaneta, Soacha, Barranquilla zona urbana). Se podrá
+                        realizar registro del formulario web al titular de la línea o un tercero. Para el
+                        diligenciamiento del formulario Utilizaremos el siguiente guion: "Sr / Sra.: con el fin de
+                        realizar el agendamiento de la entrega del chip de reposición llenaremos un formulario con los
+                        datos del titular del servicio, en el transcurso de 30 minutos nuestra empresa de mensajería se
+                        comunicará con usted al número de contacto que nos suministra, para confirmar la fecha y hora de
+                        entrega de su predilección."</td>
+                    <td>Si afirma ser el titular y desea solicitar el servicio, realizamos validación en línea de 3
+                        datos de 5. Para información, mecánica o estado del pedido no se requiere generar validación de
+                        datos Si es un tercero y acepta el envío de chip se Registra el Formulario. Siempre y cuando
+                        confirme que el titular puede estar para la entrega del chip?. Tener presente que solo será
+                        entregado a titulares de la línea con previa validación de documento de identidad original</td>
+                </tr>
+                <tr>
+                    <td>Llamadas Especiales</td>
+                    <td>Transferencia Skill 2</td>
+                    <td>Transferencia Skill 2</td>
+                    <td>Transferencia Skill 2</td>
+                    <td>Solo cuando existe la contingencia</td>
+                    <td>Solo cuando existe la contingencia</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td> Incidencias Portal Cautivo DPI</td>
+                    <td>Direccionamiento teniendo recursos</td>
+                    <td>Escalamiento planilla IMT</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>Intermitencia</td>
+                    <td>Congestión o Mala Señal</td>
+                    <td>Escalamiento o Planilla IMT o Intermitencia</td>
+                    <td>BlackBerry: Falla Datos BlackBerry Nota: Si nuestro cliente manifiesta que el servicio está
+                        intermitente, le damos el guion Ofreciendo Creación de PQR Androide: Lo utilizamos cuando no
+                        identificamos inconveniente en la línea.</td>
+                    <td>BlackBerry: Falla Datos BlackBerry (Cuando se requiera Brindar Guion ofreciendo creación de PQR)
+                        Nota: Si nuestro cliente manifiesta que el servicio está intermitente, le damos el guion
+                        Ofreciendo Creación de PQR Androide: Lo utilizamos cuando no identificamos inconveniente en la
+                        línea (tiene recursos vigentes, attachado en red, apn configurado, chip slot 1, equipo sin
+                        bloquear) y escalamos el caso en la planilla de IMT, en la observación es necesario documentar
+                        que el cliente tiene navegación intermitente.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>Lentitud</td>
+                    <td>Conexión a la Red 2G</td>
+                    <td>Información Velocidad 2G</td>
+                    <td>Utilizamos esta tipificación cuando identificamos en CI configuración de terminales que el
+                        cliente está en red 2 G</td>
+                    <td>Si se identifica que el usuario esta red 2G podemos dar el siguiente guion: "Si eres usuario con
+                        Cobertura 3.5G, la velocidad de descargas que puedes alcanzar es de hasta 1400 Kbps y si eres
+                        usuario con Cobertura 2.5G (GPRS, EDGE), la velocidad de descargas que puedes alcanzar es de
+                        hasta 128 Kbps." "Si eres usuario con equipo 4G HSPA+ con Cobertura 4G HSPA+, la velocidad de
+                        descargas que puedes alcanzar es hasta de 4000 Kbps. No obstante, la velocidad de navegación que
+                        percibas podrá variar según la congestión de la red, la intensidad de la señal recibida de
+                        acuerdo al lugar donde te encuentres y el equipo móvil uses para conectarte a la Red de datos de
+                        Tigo. Los equipos 4G deben ser tecnología HSPA+ en la banda de 1900Mhz."</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>Lentitud</td>
+                    <td>Supero Limite de Velocidad</td>
+                    <td>Supero Limite de Velocidad</td>
+                    <td>Lo utilizamos cuando debemos validar si el usuario ya alcanzo el límite de velocidad en un
+                        servicio de navegación FUP</td>
+                    <td>Se debe validar si el nombre del plan contiene la palabra FUP, de ser así debemos validar en CI
+                        en la pantalla Query en el recuadro INSTANCE si la velocidad registra Velocidad - 2. Si registra
+                        en velocidad 2 le debe indicar al cliente: "Sr(a) ya alcanzó el límite de velocidad de su plan,
+                        es por esta razón que percibe una menor velocidad de navegación" Si registra en velocidad 1:
+                        Continuar con los siguientes pasos de validación.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No funcionan Apps</td>
+                    <td>Falla de origen en Plataforma</td>
+                    <td>Falla de origen en Plataforma</td>
+                    <td>La utilizamos cuando el cliente manifieste inconvenientes para acceder a una APP como Whatsapp,
+                        Facebook y la falla sea directa de la plataforma más no del servicio de datos.</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Bloqueo o Aplicaciones Fraudulenta</td>
+                    <td>Asesoría o Eliminar aplicación fraudulenta</td>
+                    <td>Se valida en Consulta integral en la pestaña "PSIPHON" el número de la línea.</td>
+                    <td>Si esta registra, debemos brindar el siguiente guion: De acuerdo a su solicitud, nos permitimos
+                        informar que verificado con el área de técnica Usted ha hecho uso de aplicaciones que permiten
+                        navegar gratis sin autorización de Colombia Móvil, por lo tanto al constituir una conducta
+                        fraudulenta que afecta nuestras plataformas procedimos con el bloqueo respectivo. Si le damos
+                        este guion al usuario y este manifiesta su informidad debemos proceder a generar la PQR en caso
+                        tal de que el cliente lo solicite</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Celular no registra en la Red</td>
+                    <td>Apague y Prenda</td>
+                    <td>En C.I. Configuración Terminales se verifica que en el campo ESTADO el estado de la Línea. Si el
+                        equipo es Android: Sr(a) por favor apague y encienda el teléfono</td>
+                    <td>En C.I. Configuración Terminales se verifica que en el campo ESTADO el estado de la Línea:
+                        Attached =Cuando la línea está conectada a la red. Detached = Cuando no se ha conectado a la
+                        red. Si el estado es Attached, pasamos al siguiente paso Si el estado es Detahed, debemos
+                        indicar: o Si el equipo es Android: Sr(a) por favor apague y encienda el teléfono Si el cliente
+                        ya reinició y aun no se registra en la red informar: Sr(a) por favor ingrese a: Configuración o
+                        ajustes /Opción más/ Redes móviles/Operadores de red /y seleccionar: Automáticamente o elegir la
+                        red de Tigo Si el equipo NO es Android: Se Brinda el Guion de PQR y si el cliente desea se
+                        procede a crear la PQR</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Equipo Cliente Celular Tablet etc</td>
+                    <td>Desactivación Modo Avión</td>
+                    <td>la utilizamos cuando el cliente manifieste que tenía el celular en modo avión y al apagarla pudo
+                        hacer uso del servicio</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Equipo y línea sin problemas</td>
+                    <td>Escalamiento o Planilla IMT</td>
+                    <td>BlackBerry Falla de Datos BlackBerry (Cuando se Brinda Guion Ofreciendo PQR) Nota: si en el
+                        descarte identificamos que la línea y el equipo del cliente no tiene problemas pero aún así no
+                        navega , lo reflejamos en esta instancia y Brindamos Guion Ofreciendo PQR a nuestro usuario
+                        Androide Lo utilizamos cuando no identificamos inconveniente en la línea (tiene recursos
+                        vigentes, attachado en red, apn configurado, chip slot 1, equipo sin bloquear) y Brindamos Guion
+                        Ofreciendo PQR, en la observación es necesario documentar que el cliente NO NAVEGA</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Falla Masiva</td>
+                    <td>Guion de Falla</td>
+                    <td>BlackBerry Aplica para BB y para equipos Androide. Nota: si la no navegación del cliente obedece
+                        a una falla masiva que la empresa ya identificó e informó, el asesor deberá tipificar en esta
+                        instancia. Android Se utiliza SOLO bajo indicación del supervisor de la operación y si se
+                        requiere Generar una PQR</td>
+                    <td>0</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Liberar Contextos</td>
+                    <td>Liberar Contextos No Exitoso</td>
+                    <td>Lo utilizamos en las llamadas donde el cliente manifiesta inconvenientes con el servicios de
+                        navegación y la configuración de liberar contextos no se ejecuta exitosamente</td>
+                    <td>Si la configuración no se realiza de manera exitosa debemos continuar con los descartes y
+                        validaciones necesarios para garantizar la SPC.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Sin Recursos</td>
+                    <td>Asesoría o Recursos Consumidos</td>
+                    <td>Lo utilizamos en las llamadas en las cuales identificamos que la línea de consulta se
+                        consumieron los recursos y es por este motivo que no puede hacer uso del servicio de
+                        navegación, </td>
+                    <td>indicamos la fecha del último consumo de los recursos del paquete y el siguiente guion: Sr(a) el
+                        motivo por el cual no puede navegar es porque ya Consumió el paquete de navegación que había
+                        adquirido. En este caso para poder utilizar de nuevo la navegación podemos activar un paquete en
+                        su línea (si tiene saldo) o  lo invitamos a recargar y adquirir paquetes a través de nuestra
+                        línea *300 o *111# o si es Arma Tu plan del *234# , indicando las opciones del menú según
+                        corresponda.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Sin Recursos</td>
+                    <td>Asesoría o Recursos Expirados</td>
+                    <td>Lo utilizamos en las llamadas en las cuales identificamos que la línea de consulta se le
+                        vencieron los recursos y es por este motivo que uno puede hacer uso del servicio de navegación,
+                    </td>
+                    <td>indicamos la fecha en que se venció el paquete y el siguiente guion: Sr(a) el motivo por el cual
+                        no puede navegar es porque ya expiró el paquete de navegación que había adquirido. En este caso
+                        para poder utilizar de nuevo la navegación podemos activar un paquete en su línea (si tiene
+                        saldo) o lo invitamos a recargar y adquirir paquetes a través de nuestra línea *300 o *111# o si
+                        es Arma Tu plan del *234# , indicando las opciones del menú según corresponda.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Sin Recursos o Desconciliacion CRM o CI</td>
+                    <td>Escalamiento Ticket Incidencias</td>
+                    <td>Lo utilizamos cuando identificamos des conciliación en las plataformas (CI-CRM-Evoluciona),
+                        Brindamos Guion ofreciendo creación de PQR</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Navegación</td>
+                    <td>No navega</td>
+                    <td>Sin Recursos o Desconciliacion DPI</td>
+                    <td>Escalamiento TT Área Prepago</td>
+                    <td>Lo utilizamos cuando identificamos desconciliación en el DPI vs CI, Brindamos Guion ofreciendo
+                        creación de PQR</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Ajustes a la factura</td>
+                    <td>Ajustes a la factura</td>
+                    <td> Ajustes de Facturacion y saldo</td>
+                    <td>Cuando un usuario 5,0 solicita y se realiza cualquier ajuste a la factura</td>
+                    <td>&nbsp;</td>
+                    <td>si se comunica desde otra línea validar 3 de 5 para brindar la información.</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Cambios de plan</td>
+                    <td>Cambios de plan</td>
+                    <td>Cambios de plan</td>
+                    <td>cuando el usuario ya perteneciente a la oferta 5,0 manifiesta que desea migrar dentro de
+                        nuestros planes de Pospago 5,0</td>
+                    <td>se valida el estado de la linea y si es procedente se realiza el cambio</td>
+                    <td>Solo lo puede hacer el titular luego de validar 3 de 5.</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Facturacion y Cartera</td>
+                    <td>Facturacion y Cartera</td>
+                    <td>Linea suspendida con pago aplicado</td>
+                    <td>Cuando nuestro usuario se comunique indicando que ya cancelo la factura, no tiene servicio y al
+                        revisar la línea el pago ya ingreso.</td>
+                    <td>En caso de presentar esta incidencia se trata de reconectar la línea si cumple con las
+                        políticas, de ser necesario se escala por la planilla Indicada.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Facturacion y Cartera</td>
+                    <td>Facturacion y Cartera</td>
+                    <td>Queja Incremento de tarifas</td>
+                    <td>Cuando el usuario 5,0 manifieste inconformidad por Incremento de tarifas</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Oferta no aplicada</td>
+                    <td>cuando el usuario manifiesta que no le aplicaron la oferta que le ofrecieron</td>
+                    <td>validamos que tipo de oferta o promoción le ofrecieron por promociones o PQR y se maneja el
+                        rpoceso establecido de ajuste o información.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Recursos incompletos</td>
+                    <td>cuando el usuario manifiesta que no le entregaron recursos</td>
+                    <td>se valida la información en CI/BO para identifiar la fecha de cilo y la entrega de los recursos.
+                        De ser necesario escalar según la naturaleza por :Ajustes Generales (Prepago, ATP, Control,
+                        Pospago, Pospago 5.1 y Pospago 5.2)</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Recursos no asignados</td>
+                    <td>Fallas con la asignación de recursos de combos, paquetes, suscripciones, cambios de combos,
+                        paquetes, suscripciones no realizadas o mal realizadas, no aplicación de ofertas</td>
+                    <td>Realizar las validaciones básicas y servicios que tiene suscritos, si se presenta el
+                        inconveniente escalar en EROS por la planilla "Inconvenientes paquetes ATP"</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Fallas o Incidencias</td>
+                    <td>Regalo no asignado</td>
+                    <td>cuando el usuario manifiesta que no le dieron la GB fortuna.</td>
+                    <td>esto solo aplica para usuarios que adquieren el plan en un ciclo cerrado, se les da el
+                        beneficio, validar proceso en la nueva oferta pospago 5,0.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Informacion General y Asesoria</td>
+                    <td>Informacion General y Asesoria</td>
+                    <td>Informacion General y Asesoria</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>si se comunica desde otra línea validar 3 de 5 para brindar la información.</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamada muda</td>
+                    <td>Cuando después de contestar la llamada no se obtiene respuesta por parte de nuestro usuario.
+                    </td>
+                    <td>Se Otorga Guion según Protocolo de servicio</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamadas Especiales</td>
+                    <td>Llamada servicios fijos</td>
+                    <td>Cuando se reciban llamadas relacionada con el portafolio de UNE, o se identifique que el cliente
+                        realiza preguntas con servicio de televisión, telefonía fija, Banda Ancha, entre otros,
+                        diferentes a Tigo, debe transferir a UNE</td>
+                    <td>Identificar que el servicio que se solicita pertenece al portafolio de UNE, se debe brindar el
+                        guion establecido y trasferir a UNE.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Posventas Pospago 5.0</td>
+                    <td>Posventas Pospago 5.0</td>
+                    <td>Posventas Pospago 5.0</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Validar 3 de 5. La solicitud solo debe hacerla el titular.</td>
+                </tr>
+                <tr>
+                    <td>Pospago 5.0</td>
+                    <td>Suscripciones</td>
+                    <td>Suscripciones</td>
+                    <td>Suscripciones</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>si se comunica desde otra línea validar 3 de 5 para brindar la información.</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Incidencias</td>
+                    <td>Inconveniente con marcación y recargas por 600</td>
+                    <td>Inconveniente con marcación y recargas por 600</td>
+                    <td>Cuando nuestro usuario manifiesta inconvenientes con la marcación y recarga.</td>
+                    <td>Se invita a utilizar medios alternos, si es una falla masiva se escala en la planilla autorizada
+                        y/o se brinda guion.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Incidencias</td>
+                    <td>Inconvenientes para consulta de saldo prepago</td>
+                    <td>Inconvenientes para consulta de saldo prepago</td>
+                    <td>Cuando nuestro usuario prepago o control (diferente a ATP) presenta inconvenientes para
+                        consultar su saldo a través del *111#</td>
+                    <td>Brindar el saldo (ver proceso consulta de saldo), se escala el caso en la planilla y/o se brinda
+                        guion autorizado si es inconveniente masivo. Si es caso puntual y de ser necesario se crea PQR.
+                    </td>
+                    <td>Si se comunica de otra línea, validar con el titular de la línea 3 datos de 5, así mismo, la
+                        validación de pregunta filtro (Consideraciones Para La Validación De Datos)</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Incidencias</td>
+                    <td>Móvil sin recarga inicial</td>
+                    <td>Móvil sin recarga inicial</td>
+                    <td>Cuando es una línea nueva y no se le otorga el bono de bienvenida después de realizar la recarga
+                        inicial por valor establecido. También aplica para el bono de regalo en líneas nuevas ATP.</td>
+                    <td>Prepago: Se valida que haya realizado una recarga mínima, (no aplica para la sumatoria de
+                        recargas realizadas) y no se entregó el bono de bienvenida, se escala en Eros en la planilla
+                        Bono De Bienvenida No Aplicado</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Incidencias</td>
+                    <td>Prepago Desconectado</td>
+                    <td>Prepago Desconectado</td>
+                    <td>Cuando nuestro usuario se comunica manifestando que su línea se encuentra suspendida y se
+                        identifica que fue desconectada por inactividad por más de 60 días o recibió el SMS informando
+                        que está próximo a la desconexión.</td>
+                    <td>Pasado este lapso de tiempo estas líneas no van a poder ser reconectadas.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Incidencias</td>
+                    <td>Recarga no aplicada</td>
+                    <td>Recarga no aplicada</td>
+                    <td>Cuando nuestro usuario manifiesta que ha realizado la recarga y no aparece aplicada.</td>
+                    <td>Si aún no han pasado las 24 horas establecidas para la aplicación indicar guion, si ya
+                        transcurrieron, validar estado de recarga y si aplica generar PQR; este proceso es sólo para
+                        recargas a través de nuestra página web; si fue por otro medio se debe remitir al punto de
+                        venta.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Incidencias</td>
+                    <td>Recarga Reversada</td>
+                    <td>Recarga Reversada</td>
+                    <td>Cuando se evidencia que la recarga es aplicada y luego aparece un reverso (se identifica al
+                        tener un signo menos en el valor descontado)</td>
+                    <td>Revisión de las políticas, estado de la línea, escalamiento en las planillas asignadas y/o
+                        utilización de guiones autorizados.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>consulta de saldo</td>
+                    <td>consulta de saldo en dinero</td>
+                    <td>Cuando el cliente desea conocer cuánto saldo en dinero le fue asignado y el saldo en dinero
+                        disponible.</td>
+                    <td>Se debe validar la información e indicarla en línea, así mismo, envía SMS WEB, con la
+                        información de autogestión.</td>
+                    <td>Si la consulta es para la línea de la cual se comunica se indica la información, si es diferente
+                        se validan 3 datos de 5 y se otorga información.</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>consulta de saldo</td>
+                    <td>Consulta saldo recursos minutos y SMS</td>
+                    <td>Cuando nuestro usuario desea consultar cuántos minutos o SMS tiene disponibles.</td>
+                    <td>Se debe validar la información e indicarla en línea, así mismo, envía SMS WEB, con la
+                        información de autogestión.</td>
+                    <td>Si la consulta es para la línea de la cual se comunica se indica la información, si es diferente
+                        se validan 3 datos de 5 y se otorga información.</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>consulta de saldo</td>
+                    <td>consulta saldo recursos navegación</td>
+                    <td>Cuando nuestro usuario desea conocer los recursos de navegación asignados, disponibles y la
+                        vigencia.</td>
+                    <td>Se debe validar la información e indicarla en línea, así mismo, envía SMS WEB, con la
+                        información de autogestión.</td>
+                    <td>Si la consulta es para la línea de la cual se comunica se indica la información, si es diferente
+                        se validan 3 datos de 5 y se otorga información.</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>consulta de saldo</td>
+                    <td>Información medios de consulta</td>
+                    <td>Cuando nuestro usuario desea conocer por qué medio realiza la consulta de saldo</td>
+                    <td>Se debe validar con el usuario si desea conocer el saldo o sólo el medio de consulta, se brinda
+                        el guion establecido.</td>
+                    <td>En los casos que el usuario mencione que si desea conocer el saldo se indica en línea según
+                        aplique y se le otorga la información de autogestión, para los casos que el usuario sólo desea
+                        conocer la forma de consulta se le indica el proceso de autogestión.</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Información Cambios de Plan</td>
+                    <td>Información Cambios de Plan</td>
+                    <td>Cuando un usuario con plan ATP desea cambiar su plan actual a un plan a Pospago, control o
+                         prepago</td>
+                    <td>Se brinda información para que nuestro usuario realice el proceso</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Información de tarifas</td>
+                    <td>Información de tarifas</td>
+                    <td>cuando el usuario requiere información sobre el valor de las tarifas por demanda, como por
+                        ejemplo minutos, navegación, mensajes, paquetes para ATP.</td>
+                    <td>validar información en tarifario según lo que requiera el usuario. Brindar autogestión.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>medios y valores de recarga</td>
+                    <td>medios y valores de recarga</td>
+                    <td>Cuando nuestro usuario se comunica solicitando cuales son los diferentes medios de recargas,
+                        Mecánica y valores.</td>
+                    <td>Se brinda la información de los diferentes medios de recarga y se envía SMS si aplica.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Consulta Incremento Tarifario</td>
+                    <td>Información sobre el Incremento de tarifas.</td>
+                    <td>Se consulta el plan y se brinda la información correspondiente a las nuevas tarifas y las fechas
+                        desde las cuales aplican.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Información Plan 1x1</td>
+                    <td>Cuando el usuario solicita información del Plan 1x1, cambio de Plan, tarifas, Vigencias,
+                        mecánicas y políticas.</td>
+                    <td>Realizar la validación en nuestro sistema, indicar las tarifas, brindar las opciones de *111# y
+                        enviar SMS como proceso de auto atención.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Migracion 1x1</td>
+                    <td>Cuando el usuario solicita información de la migración 1x1</td>
+                    <td>&nbsp;</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Información Plan 1x1</td>
+                    <td>Cuando el usuario solicita información del Plan 1x1, cambio de Plan, tarifas, Vigencias,
+                        mecánicas y políticas.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Nuevas tarifas</td>
+                    <td>Queja Incremento Tarifas</td>
+                    <td>Cuando el usuario se encuentra en desacuerdo con las nuevas tarifas</td>
+                    <td>cuando el usuario no esta de acuerdo con el incremento y exige PQR</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Oferta de planes</td>
+                    <td>Información del Plan</td>
+                    <td>cuando un usuario desea saber información de su plan, cuando un usuario desea saber información
+                        de la oferta.</td>
+                    <td>se le brinda la información de la oferta actual respecto al plan que solicite , si tiene el plan
+                        se le indica la información que necesite.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Prepago</td>
+                    <td>Información General</td>
+                    <td>Planes por Segundos</td>
+                    <td>Información Prepago por Segundos</td>
+                    <td>Cuando el usuario solicita información del producto, cambio de Plan, tarifas, vigencias,
+                        mecánicas y políticas</td>
+                    <td>Se brinda toda la información, mecánica de activación, vigencia, costo, activación, cambios de
+                        plan prepago y se envía SMS si aplica con la información. Envío de SMS web por proceso de
+                        auto-atención.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Backtones Tigo</td>
+                    <td>Información Backtones Tigo</td>
+                    <td>Información Backtones Tigo</td>
+                    <td>Cuando nuestro usuario se comunica solicitando Información sobre el servicio de Backtone,
+                        Condiciones, Mecánica, Políticas, forma de activación, cancelación y Costos.</td>
+                    <td>Información: Se indica al usuario la información del costo, vigencia, mecánica y se envía SMS
+                        con el proceso o información según aplique.</td>
+                    <td>Para activación y cancelación de la línea que se comunica no requiere validación para otra si
+                    </td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Extrasaldo</td>
+                    <td>Cliente solicita Modificar cupo extrasaldo</td>
+                    <td>Cliente solicita Modificar cupo extrasaldo</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información de cómo aumentar o disminuir el cupo
+                        del servicio Extrasaldo diferente a ATP.</td>
+                    <td>Se brinda información de políticas de uso y asignación de cupos de acuerdo a su score.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Extrasaldo</td>
+                    <td>Información Extrasaldo Min Salvavidas</td>
+                    <td>Información Extrasaldo Min Salvavidas</td>
+                    <td>Cuando nuestro usuario llama a consultar los servicios que brindan la posibilidad de comunicarse
+                        aun cuando no tengan saldo como Adelanta Saldo, Minuto Salvavidas, Regala Saldo, SMS por Cobrar,
+                        SMS para Regalar. Aplica para prepago y Control diferente a ATP.</td>
+                    <td>Se brinda la información del producto costo, vigencia, mecánica, y políticas, deuda-cupo,
+                        saldos. Para Validar por medio de Consulta Integral e indicar a nuestro usuario la información y
+                        se envía SMS con el proceso de auto atención.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Información campañas de salida</td>
+                    <td>Información campañas de salida</td>
+                    <td>Información campañas de salida</td>
+                    <td>Cuando el cliente solicite información de una campaña de salida, ya que se han comunicado con el
+                        a realizarle alguna oferta o brindarle información de su línea.</td>
+                    <td>Validar en PDC las campañas que tenemos disponibles actualmente para garantizar si la
+                        información proviene de TigoUne</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Información Doble y Triple recarga</td>
+                    <td>Información Doble y Triple recarga</td>
+                    <td>Información Doble y Triple recarga</td>
+                    <td>Cuando nuestro usuario se comunique solicitando información sobre beneficios que nuestra
+                        compañía le ofrece por medio telefónico.</td>
+                    <td>Se otorga la información solicitada, según la inquietud o necesidad de nuestros usuarios, frente
+                        a la comunicación que genera la compañía con el cliente ofreciendo los servicios y beneficios.
+                        (es importante Validar que el usuario se encuentre beneficiado con la campaña ofrecida).</td>
+                    <td>Validar que el usuario se encuentre beneficiado en CI</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Numero ff ilimitado prepago</td>
+                    <td>Información Números ff ilimitado prepago</td>
+                    <td>Información Números ff ilimitado prepago</td>
+                    <td>Cuando nuestro usuario se comunica solicitando Información de promoción de Favoritos Ilimitados
+                    </td>
+                    <td>Se brinda la información del producto: costo, vigencia, mecánica y se envía SMS con proceso de
+                        auto atención.</td>
+                    <td>Si el usuario solicita Información sobre los números Favoritos Ilimitados Inscritos; se deber
+                        validar con el titular de la línea 3 de 5 datos Independiente que llame desde la misma línea o
+                        una diferente.</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Números Parceros Control</td>
+                    <td>Informacion Numeros Parceros Control</td>
+                    <td>Informacion Numeros Parceros Control</td>
+                    <td>Cuando nuestro usuario se comunica para solicitar información de la promoción Números Parceros
+                        Control.</td>
+                    <td>Información: Se brinda la información del producto costo, vigencia, mecánica y se envía SMS con
+                        proceso de auto atención.</td>
+                    <td>Si el usuario solicita Información sobre los números Favoritos Parceros Inscritos; se deber
+                        validar con el titular de la línea 3 de 5 datos, Independiente que llame desde la misma línea o
+                        una diferente.</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Numeros Parceros Prepago</td>
+                    <td>Informacion Numeros Parceros Prepago</td>
+                    <td>Informacion Numeros Parceros Prepago</td>
+                    <td>Cuando nuestro usuario llama a consultar información de promociones de favoritos que maneja
+                        nuestra compañía, diferentes a Favoritos Ilimitados o Números Bacanos que cuentan con Nodo de
+                        Tipificación propio</td>
+                    <td>Se brinda la información del producto: costo, vigencia, mecánica y se envía SMS con proceso de
+                        auto atención.</td>
+                    <td>Si el usuario solicita Información sobre los números Favoritos Ilimitados Inscritos; se debe
+                        validar con el titular de la línea 3 de 5 datos Independiente que llame desde la misma línea o
+                        una diferente.</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Paquetes de datos</td>
+                    <td>Compra Paquete de datos</td>
+                    <td>Compra Paquete de datos</td>
+                    <td>Cuando nuestro usuario se comunica indicando que desea activar un Paquete de Datos y/o Paquetes
+                        de SMS, diferentes a ATP y a suscripciones.</td>
+                    <td>Realizar las validaciones de acuerdo a las necesidades de nuestro usuario, brindar toda la
+                        información del producto. Si se puede realizar la activación por CRM se activa y se envía SMS
+                        para una próxima ocasión, si no está disponible por CRM, se informa como activarlo mecánica y se
+                        envía SMS con la información de auto atención.</td>
+                    <td>Activación de la línea que se comunica no requiere validación para otra si.</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Paquetes de datos</td>
+                    <td>Incidencias paquetes de datos</td>
+                    <td>demora asignacion de recursos</td>
+                    <td>Cuando nuestro usuario se comunica informando que no le han asignado los recursos solicitados ya
+                        sean de navegación o Paquetes de SMS.</td>
+                    <td>Se valida que la línea este activa, verificar la compra del paquete, si no se ven otorgados los
+                        recursos, se escala por la planilla asignada y se brinda el guion autorizado.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Paquetes de datos</td>
+                    <td>Incidencias paquetes de datos</td>
+                    <td>incidencia compra paquetes</td>
+                    <td>Cuando nuestro usuario se comunica informando que presenta inconvenientes con la compra de
+                        Paquetes de Datos y/o Paquetes de SMS, diferentes a ATP y a suscripciones.</td>
+                    <td>Se valida que la línea este activa que tenga saldo disponible para la activación del paquete,
+                        políticas, vigencia, brindar las diferentes opciones disponibles para la activación, en caso
+                        seguir presentando el inconveniente se escala en planilla Eros llamada " IG - Fallas - Compra
+                        Paquete o Suscripciones". Si hay incidencia masiva se brinda guion</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Paquetes de datos</td>
+                    <td>Mecánica Paquetes de Datos</td>
+                    <td>Mecánica Paquetes de Datos</td>
+                    <td>Cuando nuestro usuario solicita información sobre paquetes de navegación y de mensajes de texto.
+                    </td>
+                    <td>Realizar las validaciones necesarias de la línea y promociones vigentes de acuerdo a la consulta
+                        de nuestro usuario, informar proceso de activación y enviar SMS de auto atención. Aplicar
+                        proceso de gestión comercial.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Paquetes de Voz</td>
+                    <td>Informacion Paquetes de Voz</td>
+                    <td>Informacion Paquetes de Voz</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información, mecánica, políticas, cómo realizar
+                        la compra, tarifas para paquetes de Voz diferentes a ATP y a suscripciones.</td>
+                    <td>Se brinda toda la información del producto: costo, vigencia, mecánica y se envía SMS con la
+                        información de auto atención.</td>
+                    <td>Si es activación para la línea que se comunica no requiere validación para otra si.</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>paquetes Epin</td>
+                    <td>Informacion paquetes Epin</td>
+                    <td>Informacion paquetes Epin</td>
+                    <td>Cuando nuestro usuario llama a consultar información de los paquetes disponibles por el servicio
+                        E-PIN (No se brinda información a vendedores).</td>
+                    <td>Se brinda la información del producto: tarifa, vigencia, mecánica y se envía SMS si aplica con
+                        la información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Paquetes LDI</td>
+                    <td>Informacion Paquetes LDI</td>
+                    <td>Informacion Paquetes LDI</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información de los paquetes de LDI. No aplica
+                        para ATP.</td>
+                    <td>Se brinda toda la información del producto: costo, vigencia, mecánica y se envía SMS si aplica
+                        con la información. Activación: si está habilitado por CRM se realiza la compra y se envía SMS
+                        con la información, de lo contrario se indica como activar y se envía SMS con la información
+                        como proceso de auto atención.</td>
+                    <td>Activación de la línea que se comunica no requiere validación para otra si.</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Regalos Tigo</td>
+                    <td>Informacion Regalos Tigo</td>
+                    <td>Informacion Regalos Tigo</td>
+                    <td>Cuando nuestro usuario solicita información sobre la promoción Regalos Tigo e información de
+                        cómo adquirir el bono de bienvenida.</td>
+                    <td>Se brinda toda la información de las promociones de Regalos, políticas, mecánica y vigencia, se
+                        envía SMS con el método de auto atención. Aplica para ATP</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>Tu oferta</td>
+                    <td>Informacion tu oferta</td>
+                    <td>Informacion tu oferta</td>
+                    <td>Cuando nuestros usuarios desean conocer la Información de Tu Oferta.</td>
+                    <td>Se brinda la información sobre los productos de la oferta, así mismo se indica la mecánica,
+                        políticas, vigencias y tarifas. Enviando SMS como proceso de auto atención.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Promociones Eventos y Campanas</td>
+                    <td>WhatsApp Ilimitado</td>
+                    <td>Informacion WhatsApp ilimitado</td>
+                    <td>Informacion WhatsApp ilimitado</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información sobre el servicio WhatsApp ilimitado.
+                    </td>
+                    <td>Se brinda información de políticas, mecánica y vigencia. En caso de ser necesario se realiza la
+                        activación por medio de CRM, se informa proceso de activación y se envía SMS con medio de auto
+                        atención.</td>
+                    <td>Si es activación por CRM para la línea que se comunica no requiere validación para otra si.</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas</td>
+                    <td>Llamadas mal enrutadas</td>
+                    <td>Linea portada</td>
+                    <td>Cuando nuestro usuario no puede utilizar el servicio de llamadas porque se direccionan a un
+                        destino diferente o cuando nuestro sistema informa que la llamada es remitida a otro operador.
+                    </td>
+                    <td>Validar el estado de la línea y de la portabilidad, realizar el proceso de inconvenientes con
+                        llamadas, en caso de haber sido realizado y persistir el inconveniente Brindamos Guion
+                        Ofreciendo PQR a nuestro usuario</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas</td>
+                    <td>Llamadas mal enrutadas</td>
+                    <td>Llamadas mal enrutadas</td>
+                    <td>cuando el usuario manifiesta el inconveniente de cuando lo llaman se desvia la llamada.</td>
+                    <td>Se envían los SMS para configurar el servicio (desvíos, restricciones), en caso de ser una falla
+                        masiva Brindamos Guion Ofreciendo PQR a nuestro usuario y/o se brinda guion autorizado por la
+                        contingencia. Realizar la validación si es una línea portada, debido a que el escalamiento es
+                        diferente</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas entrantes - VoLTE</td>
+                    <td>Cliente sin cobertura - 4G</td>
+                    <td>Cuando el usuario manifiesta que no le ingresan las llamadas en VoLTE y al validar se identifica
+                        que está en una zona sin la cobertura.</td>
+                    <td>Se brinda toda la información y se indica qué cobertura hay en la zona donde reside el usuario
+                    </td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas entrantes - VoLTE</td>
+                    <td>Cliente sin saldo o sin recursos vigentes</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan ingresando las
+                        llamadas y se valida que no cuenta con recuersos o saldo vigente.</td>
+                    <td>&nbsp;</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas entrantes - VoLTE</td>
+                    <td>Cumple con validaciones se concilia - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan ingresando las
+                        llamadas.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico y se concilia la línea.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas entrantes - VoLTE</td>
+                    <td>Cumple con validaciones se configura Movil - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan ingresando las
+                        llamadas.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas entrantes - VoLTE</td>
+                    <td>Cumple con validaciones se escala - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan ingresando las
+                        llamadas.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico y sigue con el inconveniente por lo cula se radica PQR.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas entrantes - VoLTE</td>
+                    <td>Se desactiva Funcionalidad VoLTE en Movil</td>
+                    <td>Cuando el cliente solicita que se le desactive la opción de llamadas entrantes en VoLTE.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone y se brinda la configuración manual para descativarlo.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas salientes - VoLTE</td>
+                    <td>Cliente sin cobertura - 4G</td>
+                    <td>Cuando el usuario manifiesta que no le salen las llamadas en VoLTE y al validar se identifica
+                        que está en una zona sin la cobertura.</td>
+                    <td>Se brinda toda la información y se indica qué cobertura hay en la zona donde reside el usuario
+                    </td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas salientes - VoLTE</td>
+                    <td>Cliente sin saldo o sin recursos vigentes</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo las
+                        llamadas y se valida que no cuenta con recuersos o saldo vigente.</td>
+                    <td>&nbsp;</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas salientes - VoLTE</td>
+                    <td>Cumple con validaciones se concilia - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo llamadas.
+                    </td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico y se concilia la línea.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas salientes - VoLTE</td>
+                    <td>Cumple con validaciones se configura Movil - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo las
+                        llamadas.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas salientes - VoLTE</td>
+                    <td>Cumple con validaciones se escala</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo las
+                        llamadas.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico y sigue con el inconveniente por lo cula se radica PQR.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas de Llamadas salientes - VoLTE</td>
+                    <td>Se desactiva Funcionalidad VoLTE en Movil</td>
+                    <td>Cuando el cliente solicita que se le desactive la opción de llamadas salientes VoLTE.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone y se brinda la configuración manual para descativarlo.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas todas las llamadas - VoLTE</td>
+                    <td>Cliente sin cobertura - 4G</td>
+                    <td>Cuando el usuario manifiesta que no puede ahcer uso de las llamadas en VoLTE y al validar se
+                        identifica que está en una zona sin la cobertura.</td>
+                    <td>Se brinda toda la información y se indica qué cobertura hay en la zona donde reside el usuario
+                    </td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas todas las llamadas - VoLTE</td>
+                    <td>Cliente sin saldo o sin recursos vigentes</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo las
+                        llamadas y se valida que no cuenta con recuersos o saldo vigente.</td>
+                    <td>Se invita al usuario a realizar recargo o compra de paquete según sea el caso.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas todas las llamadas - VoLTE</td>
+                    <td>Cumple con validaciones se concilia - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo llamadas.
+                    </td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico y se concilia la línea.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Servicio de voz</td>
+                    <td>Fallas de Llamadas - VoLTE</td>
+                    <td>Fallas todas las llamadas - VoLTE</td>
+                    <td>Cumple con validaciones se configura Movil - VoLTE</td>
+                    <td>Cuando el cliente está haciendo uso de la tecnología VoLTE, pero no le estan saliendo las
+                        llamadas.</td>
+                    <td>Se valida marca de equipo, que en la pantalla aparezca al lado de la señal: VoLTE para Android y
+                        LTE para Iphone; se brinda las configuraciones para fallas de llamadas que se encuentran en
+                        Procesos Soporte Nivel 0 Básico.</td>
+                    <td>No Aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cambio de chip</td>
+                    <td>Cambio de chip</td>
+                    <td>Cambio de chip</td>
+                    <td>Cuando nuestro usuario solicita información para reposición o renovación de Chip.</td>
+                    <td>Se realizan las validaciones necesarias y se brinda la información de mecánica, tarifas,
+                        políticas y documentos para reposición o renovación de Chip.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cambio de numero</td>
+                    <td>Cambio de numero</td>
+                    <td>Cambio de numero</td>
+                    <td>Se utiliza en los casos en que nuestros clientes solicitan información del cambio de número de
+                        la línea telefónica</td>
+                    <td>Se brinda la información como costo y políticas</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Cancelación desde IG</td>
+                    <td>Cambio a prepago ingreso PQR</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan su interés de cambiar su
+                        plan control/ Pospago a Prepago). y se genere una PQR.</td>
+                    <td>&nbsp;</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Cancelación desde IG</td>
+                    <td>Cancelación de línea total ingreso PQR</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan su interés de cancelar su
+                        plan control/ Pospago y se genere una PQR</td>
+                    <td>&nbsp;</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Retencion desde IG</td>
+                    <td>Ret Suspensión temporal</td>
+                    <td>Cuando el usuario se comunica a solicitar cancelación o cambio a Prepago y el asesor logra
+                        retenerlo realizando una suspensión temporal o voluntaria.</td>
+                    <td>Debemos retener al cliente con el proceso que se tiene definido de SPC, además, es necesario
+                        mencionarle al cliente que durante el tiempo que la línea esta suspendida los eventos entrantes
+                        y salientes estaran inhabilitados, explicarle el comportamiento de la factura y las demas
+                        politicas del servicio. Si no es posible dar solución al cliente, generamos transferencia a
+                        Retención:Sr(a) permítame lo comunico con nuestra área encargada. Si el cliente pregunta que
+                        área encargada debemos informan que es nuestra área de lealtad quien se encargará de gestionar
+                        la solicitud de cancelación de la línea. Antes de transferir debemos brindar el siguiente
+                        Guion:"Sr(a) recuerde tener el documento de identificación disponible para el proceso de
+                        validación que realiza nuestra área encargada"</td>
+                    <td>Antes de realizar la transferencia debemos validar con el titular de la línea Nombre completo y
+                        número de Cedula (No es necesario que se comunique desde la misma línea a cancelar).</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Retencion desde IG</td>
+                    <td>Retención características y beneficios</td>
+                    <td>Se utiliza cuando logramos retener al cliente resaltando los beneficios que tiene actualmente en
+                        el plan</td>
+                    <td>Debemos retener al cliente con el proceso que se tiene definido de SPC. Si no es posible dar
+                        solución al cliente, generamos transferencia a Retención:Sr(a) permítame lo comunico con nuestra
+                        área encargada. Si el cliente pregunta que área encargada debemos informan que es nuestra área
+                        de lealtad quien se encargará de gestionar la solicitud de cancelación de la línea. Antes de
+                        transferir debemos brindar el siguiente Guion: "Sr(a) recuerde tener el documento de
+                        identificación disponible para el proceso de validación que realiza nuestra área encargada"</td>
+                    <td>Antes de realizar la transferencia debemos validar con el titular de la línea Nombre completo y
+                        número de Cedula (No es necesario que se comunique desde la misma línea a cancelar).</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Retencion desde IG</td>
+                    <td>Retencion tactico 5 porciento nueva oferta</td>
+                    <td>Cuando el usuario se comunica a solicitar cancelación o cambio a Prepago y el asesor logra retenerlo utilizando el táctico de retención de descuento.</td>
+                    <td>Debemos retener al cliente con el proceso que se tiene definido de SPC.</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cesion de contrato</td>
+                    <td>Legalizacion linea prepago</td>
+                    <td>Legalizacion linea prepago</td>
+                    <td>Cuando un usuario solicita legalizar su línea prepago</td>
+                    <td>Se hacen las validaciones según el proceso establecido y se procede con la legalización en CRM
+                    </td>
+                    <td>Ver validaciones en el proceso Contact Center</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Codigo puk</td>
+                    <td>Codigo puk</td>
+                    <td>Codigo puk</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información sobre el código puk de la línea.</td>
+                    <td>Se realiza la validación necesaria, se brinda el código puk en línea y se envía SMS con la
+                        información aclarando que se enviará a la línea de la cual se está comunicando el usuario (móvil
+                        Tigo).</td>
+                    <td>Se valida el número de móvil y la cédula del titular. La validación la puede realizar cualquier
+                        persona que requiera el código Puk.</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Contacto autorizado</td>
+                    <td>Contacto autorizado</td>
+                    <td>Contacto autorizado</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Si afirma ser el Titular realizamos validación en línea de 3 datos de 5</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Copia de Contrato</td>
+                    <td>Copia de Contrato</td>
+                    <td>Copia de Contrato</td>
+                    <td>Cuando nuestro usuario solicita información sobre la copia de contrato.</td>
+                    <td>Se remite a nuestro CDET y si el usuario lo exige se realiza la PQR.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Copia de Factura</td>
+                    <td>Copia de Factura</td>
+                    <td>Copia de Factura</td>
+                    <td>Cuando nuestro usuario solicita información sobre la copia de factura.</td>
+                    <td>Se debe enviar la factura a través de nuestro aplicativo Radar</td>
+                    <td>Si afirma ser el Titular y desea solicitar el servicio, realizamos validación en línea de 3
+                        datos de 5.</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Información general para cancelar</td>
+                    <td>Fallas para transferir</td>
+                    <td>Fallas para transferir</td>
+                    <td>Cuando presentamos inconvenientes en el sistema y no es posble transferir la llamada a
+                        Reteneción.</td>
+                    <td>Intentar retener al cliente con el proceso que se tiene definido de SPC. Si no se logra retener
+                        debemos informarle que se comunique en el transcurso del día y si no esta de acuerdo se genera
+                        la respectiva PQR.</td>
+                    <td>Si vamos a generar la PQR es necesario realizan la validación que se tiene establecida en el
+                        proceso (nombre completo y número de cedula)</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Información general para cancelar</td>
+                    <td>Requisitos para retirar</td>
+                    <td>Requisitos para retirar</td>
+                    <td>Nuestro cliente manifiesta intención de retiro pero no cumple con los requisitos necesarios para
+                        ser transferido a retención, por ejemplo: No pasa validación de Titularidad, no cuenta con el
+                        documento de identificación disponible para el proceso de validación, estado de la linea.</td>
+                    <td>Intentar retener al cliente con el proceso que se tiene definido de SPC y recordarle la
+                        información y documentos que debe tener al momento de solicitar la cancelación.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Reconexion de linea cancelada</td>
+                    <td>Reconexion de línea cancelada</td>
+                    <td>Reconexion de línea cancelada</td>
+                    <td>cuando la linea esta cancelada</td>
+                    <td>se debe de brindar la información establecida para lineas canceladas, puesto que no se pueden
+                        recuperar.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Reconexion de linea prepago</td>
+                    <td>Reconexion de línea prepago</td>
+                    <td>Reconexion de línea prepago</td>
+                    <td>cuando la linea prepago en estado disconect, cuando esta nueva y aparece inactiva.</td>
+                    <td>se valida el estado de la linea, si aplica la reconexión se realiza el proceso por
+                        CRM-modificación de linea-modificación de linea. En caso de ser necesario dar información de
+                        blister.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Registra tu Equipo</td>
+                    <td>&nbsp;</td>
+                    <td>bloqueado</td>
+                    <td>Cuando nuestro usuario al marcar desde el móvil le pide registro de equipo y/o se comunica a
+                        solicitar información de cómo registrarlo.</td>
+                    <td>Se brinda la información necesaria para el desbloqueo según naturaleza</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Registra tu Equipo</td>
+                    <td>&nbsp;</td>
+                    <td>Duplicado</td>
+                    <td>Cuando nuestro usuario al marcar desde el móvil le pide registro de equipo y/o se comunica a
+                        solicitar información de cómo registrarlo.</td>
+                    <td>Se brinda la información necesaria para que realice el proceso establecido.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Registra tu Equipo</td>
+                    <td>&nbsp;</td>
+                    <td>No Homologado</td>
+                    <td>Cuando nuestro usuario al marcar desde el móvil le pide registro de equipo y/o se comunica a
+                        solicitar información de cómo registrarlo.</td>
+                    <td>Se brinda la información necesaria para realizar la homologación y registro</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Registra tu Equipo</td>
+                    <td>&nbsp;</td>
+                    <td>Registra tu Equipo</td>
+                    <td>Cuando nuestro usuario al marcar desde el móvil le pide registro de equipo y/o se comunica a
+                        solicitar información de cómo registrarlo.</td>
+                    <td>Se brinda la información necesaria y se transfiere a nuestro sistema de audio respuesta para que
+                        realice el proceso de Registro de Equipo.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>SMS Promocionales</td>
+                    <td>Cancelacion o Activacion SMS Promocionales</td>
+                    <td>Cancelacion o Activacion SMS Promocionales</td>
+                    <td>Cuando nuestro usuario solicita la activación o cancelación del servicio de los SMS
+                        promocionales.</td>
+                    <td>CANCELACIÓN: Cuando se solicita la cancelación de los SMS promocionales, se debe hacer por CRM y
+                        al mismo tiempo se deben cancelar las llamadas promocionales por centuritech.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Suspension por Robo o Perdida</td>
+                    <td>IMEI en Listas Negras</td>
+                    <td>IMEI en Listas Negras</td>
+                    <td>Cuando se identifican problemas con el servicio y la causa es que el equipo está en listas
+                        negras, por Motivo de Robo o Pérdida</td>
+                    <td>Información: Se toma el último IMEI de IMEI tracking según la fecha, se realiza la consulta en
+                        CRM y se brinda la información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Suspension por Robo o Perdida</td>
+                    <td>suspension por robo o perdida</td>
+                    <td>suspension por robo o perdida</td>
+                    <td>Cuando nuestro usuario se comunica solicitando la suspensión por robo o pérdida.</td>
+                    <td>Se realizan las validaciones necesarias para el proceso de suspensión por robo o pérdida,
+                        efectuar la suspensión por medio de CRM y en caso de no encontrarse disponible tomar los datos
+                        para escalar por planillas Eros según el tipo de suspensión</td>
+                    <td>Validación 3 de 5 Nombre (Obligatorio) Cédula (Obligatorio) Plan del usuario (Caracteristica del
+                        plan, el ultimo pago/ Recarga/ Paquete comprado o realizado)(Obligatorio)</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Suspension por Robo o Perdida</td>
+                    <td>verificacion estado de la suspension</td>
+                    <td>verificacion estado de la suspension</td>
+                    <td>Cuando el usuario se comunica para validar si la suspensión por robo o pérdida se realizó
+                        exitosamente</td>
+                    <td>Cuando el usuario se comunique solicitando información del estado de la suspensión por pérdida o
+                        Robo, NO debemos transferir a nuestro audiorespuesta, ya que esta opción no se encuentra
+                        disponible, debemos validar en nuestros sistemas y brindarle la información al usuario</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Suspension voluntaria</td>
+                    <td>Reactivación por suspension voluntaria</td>
+                    <td>Reactivación por suspension voluntaria</td>
+                    <td>Cuando nuestro usuario se comunica por los siguinetes motivos: solicitando información sobre la
+                        suspensión voluntaria o temporal. Solicitando suspensión temporal o reconexión de la misma.</td>
+                    <td>Se brinda la información sobre la suspensión voluntaria o temporal. Si es para solicitarla,
+                        indicar las políticas, requisitos y solicitarlo por medio de:
+                        CRM/Posventa/Transacciones/Calendarización. Si la línea se encuentra suspendida verificar por
+                        medio de:CRM/Consultas/Consulta Posventa/Nueva Pantalla Única de
+                        Clientes/Posventa/Calendarización la fecha programada para esta.</td>
+                    <td>Cuando sea solo información no aplica confirmación de datos. Si se solicita validar 3 de 5</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Retencion desde IG</td>
+                    <td>Retencion 10 porciento nueva oferta x 12 M</td>
+                    <td>Cuando el usuario se comunica a solicitar cancelación o cambio a Prepago y el asesor logra retenerlo utilizando el táctico de retención de descuento.</td>
+                    <td>Debemos retener al cliente con el proceso que se tiene definido de SPC.</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Retencion desde IG</td>
+                    <td>Retención Disminución de plan</td>
+                    <td>Cuando el usuario se comunica a solicitar cancelación o cambio a Prepago y el asesor logra retenerlo utilizando el táctico de retención de descuento.</td>
+                    <td>Debemos retener al cliente con el proceso que se tiene definido de SPC.</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Retencion desde IG</td>
+                    <td>Retención Aumento de plan</td>
+                    <td>Cuando el usuario se comunica a solicitar cancelación o cambio a Prepago y el asesor logra retenerlo utilizando el táctico de retención de descuento.</td>
+                    <td>Debemos retener al cliente con el proceso que se tiene definido de SPC.</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de plan</td>
+                    <td>Cancelación desde IG</td>
+                    <td>Cambio a prepago con deuda</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan su interés de cambiar su plan control/ Pospago a Prepago y tiene una deuda)</td>
+                    <td>Se crea SPC con la siguiente Tipología Petición - SPC CC - CC Táctico Rete N1 - Cambio a prepago con deuda</td>
+                    <td>Se valida 3 de 5. La solicitud debe ser realizada por el titular</td>
+                </tr>
+                <tr>
+                    <td>Soporte Técnico</td>
+                    <td>Equipos remitidos a ST Tigo</td>
+                    <td>Inconformidad proceso de reparacion</td>
+                    <td>Inconformidad proceso de reparacion</td>
+                    <td>Cuando el usuario presenta cualquier inconformidad con el servicio de reparación de un equipo
+                    </td>
+                    <td>Si un cliente manifiesta alguna inconformidad con la reparación de su equipo por primera vez, no
+                        se deben crear PQR, se remite a Servicio Técnico para que se haga una segunda revisión.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Soporte Técnico</td>
+                    <td>Equipos remitidos a ST Tigo</td>
+                    <td>Movil remitido a servicio tecnico</td>
+                    <td>Movil remitido a servicio tecnico</td>
+                    <td>El usuario solicita Información por motivos de garantía de equipos, por soporte técnico por
+                        daños físicos o de fábrica, cuando las opciones de configuraciones o escalamientos que
+                        realizamos desde asterisco 300 no le funcionan y no tenemos inconvenientes con el servicio se
+                        remite al usuario para que verifiquen el estado del equipo o del chip.</td>
+                    <td>Se realizan las validaciones necesarias con el fin de identificar si desde asterisco 300 podemos
+                        dar la solución al inconveniente con el quipo o el chip, o si el inconveniente requiere una
+                        revisión técnica, de ser así se debe remitir el usuario al CDET a soporte técnico.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Soporte Técnico</td>
+                    <td>Equipos remitidos a ST Tigo</td>
+                    <td>Reparacion no efectuada dentro del termino</td>
+                    <td>Reparacion no efectuada dentro del termino</td>
+                    <td>Cuando nuestro usuario está inconforme por el incumplimiento en el tiempo en reparación de
+                        equipos (8 a 12 días hábiles)</td>
+                    <td>Se realizan las validaciones necesarias Cooper, si el tiempo de reparación fue superado invitar
+                        al usuario al CDET si no ha ido por el equipo.</td>
+                    <td>no aplica</td>
+                </tr>
+                <tr>
+                    <td>Soporte Técnico</td>
+                    <td>Equipos remitidos a ST Tigo</td>
+                    <td>Seguimiento de equipo en reparacion</td>
+                    <td>Seguimiento de equipo en reparacion</td>
+                    <td>Cuando nuestro usuario se comunica solicitando Información si su equipo ya fue reparado.</td>
+                    <td>cuando uno de nuestros usuarios solicite información sobre su equipo en Soporte técnico, debemos
+                        generar la transferencia al IVR por la opción "CONSULTA ESTADO EN SOPORTE TECNICO_GENESYS" En
+                        esta opción el IVR le solicitará al usuario que ingrese el número de línea y cedula;
+                        posteriormente le indicará el estado del equipo. si el cliente no desea ser transferido, debemos
+                        seguir el procedimiento definido para brindar dicha información.</td>
+                    <td>Si el usuario No desea ser transferido se solicitan los datos requeridos para la consulta en el
+                        aplicativo.</td>
+                </tr>
+                <tr>
+                    <td>Soporte Técnico</td>
+                    <td>Linea de fabricante</td>
+                    <td>Linea de fabricante</td>
+                    <td>Linea de fabricante</td>
+                    <td>El usuario solicita Información de la línea del fabricante, diferente a cuando se brinda alguna
+                        configuración y dentro de la llamada se brinda el número.</td>
+                    <td>Se identifica el mensaje del fabricante solicitado y se lee la información y se envía el SMS WEB
+                    </td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Suscripciones</td>
+                    <td>Suscripciones Propias</td>
+                    <td>Cancelacion de Suscripcion Propia</td>
+                    <td>Cancelacion de Suscripcion Propia</td>
+                    <td>Cuando el usuario solicita cancelar la suscripción porque ya no desea continuar más con ella.
+                    </td>
+                    <td>se identifica el codigo de la suscripción activa y se realiza la transferencia a nuestro IVR
+                        indicado. De solicitar ajuste realizar cancelación por CI</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Suscripciones</td>
+                    <td>Suscripciones Propias</td>
+                    <td>Cliente No Reconoce Suscripcion Propia</td>
+                    <td>Cliente No Reconoce Suscripcion Propia</td>
+                    <td>Cuando se comunica nuestro usuario manifestando la NEGACIÓN de las suscripciones independiente
+                        que se proceda o no con la cancelación de la misma.</td>
+                    <td>Se hace manejo de la llamada, explicando al usuario a qué corresponde la suscripción; Sólo en
+                        caso del cliente solicitar cancelación y manifestar el desacuerdo con los cobros, se realizará
+                        la cancelación y el ajuste por medio de CI, así mismo, se le indica cómo realizarlo en una
+                        próxima ocasión y se envía SMS.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Suscripciones</td>
+                    <td>Suscripciones Propias</td>
+                    <td>Informacion de Suscripcion Propia</td>
+                    <td>Informacion de Suscripcion Propia</td>
+                    <td>Cuando nuestro usuario se comunica solicitando información, Mecánica, Políticas, costos,
+                        correspondientes a Cualquier Suscripción Propia.</td>
+                    <td>Se brinda toda la información del producto: costo, vigencia, mecánica, forma de activación, así
+                        mismo, se envía SMS si aplica con la información.</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Suscripciones</td>
+                    <td>Suscripciones Proveedores</td>
+                    <td>Cancelacion de Suscripcion Proveedores</td>
+                    <td>Cancelacion de Suscripcion Proveedores</td>
+                    <td>Información, Tarifas, Cancelación, Mecánica, Activación y Negación de suscripciones de otros
+                        proveedores.</td>
+                    <td>Si solicita como cancelarlas Se cancela la suscripción en línea por medio de CI, como
+                        autogestión indicar a cliente el siguiente guion: No reconoce las suscripciones Para los casos
+                        donde nuestro usuario manifieste pérdida de saldo por suscripciones de entretenimiento, el
+                        asesor deberá realizar la cancelación como solución en primer contacto. No debemos ofrecer de
+                        forma proactiva el ajuste. Únicamente se ofrecerá este beneficio</td>
+                    <td>No aplica</td>
+                </tr>
+                <tr>
+                    <td>Transferencia retencion</td>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cambio a prepago</td>
+                    <td>Cambio a prepago</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan su interés de cambiar su
+                        plan control/ Pospago a Prepago). y se genere una PQR.</td>
+                    <td>Cuando el cliente no desee ser transferido a la línea de retención y presente objeción cuando se
+                        le brinde el guion establecido de terminación de contrato</td>
+                    <td>Si no se logra retener generar la PQR luego de garantizar que sea el titular de la línea</td>
+                </tr>
+                <tr>
+                    <td>Transferencia retencion</td>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cambio a Prepago suspendido cartera</td>
+                    <td>Cambio a Prepago suspendido cartera</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan su interés de cancelar su
+                        plan control/ Pospago y se encuentre suspendido cartera</td>
+                    <td>&nbsp;</td>
+                    <td>Antes de realizar la transferencia, debemos validar con el titular de la línea nombre completo y
+                        su número de cedula (No es necesario que se comunique desde la misma línea a cancelar).</td>
+                </tr>
+                <tr>
+                    <td>Transferencia retencion</td>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Cancelacion de la linea</td>
+                    <td>Cancelacion de la linea</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan su interés de cancelar su
+                        plan control/ Pospago y se genere una PQR</td>
+                    <td>Cuando el cliente no desee ser transferido a la línea de retención y presente objeción cuando se
+                        le brinde el guion establecido de terminación de contrato</td>
+                    <td>Si no se logra retener generar la PQR luego de garantizar que sea el titular de la línea</td>
+                </tr>
+                <tr>
+                    <td>Transferencia retencion</td>
+                    <td>Solicitudes y Cambios</td>
+                    <td>Disminución CB</td>
+                    <td>Disminución CB</td>
+                    <td>Cuando se reciban llamadas relacionadas con usuarios que manifiestan interés de disminuir su CB
+                    </td>
+                    <td>Debemos intentar identificar con preguntas asertivas el motivo y si está en nuestras manos
+                        solucionarlo. Al momento de trasferir debemos especificar en nuestro aplicativo: *Nombre del
+                        cliente *Línea que desea cancelar *Dirección *Número de documento de identidad. *Motivo por el
+                        cual desea cancelar. Debemos estar dentro del horario de atención 6:30 am a 10:30 pm. Antes de
+                        trasferir debemos bridar nuestro guion establecido para retención (validar guion).</td>
+                    <td>Antes de realizar la transferencia, debemos validar con el titular de la línea nombre completo y
+                        su número de cedula (No es necesario que se comunique desde la misma línea a cancelar).</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <footer class="footer">
+        <div class="footer-copyright text-center py-3">Emtelco | Tigo</div>
+    </footer>
+</body>
+<style>
+    .table>thead>tr>th {
+        vertical-align: bottom;
+        border-bottom: 4px solid #5191cc;
+        background-color: #28428d;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #14326b;
+        border-color: #14326b;
+        margin-left: 15px;
+    }
+</style>
+<script>
+    $(function () {
+        $("#my-search").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $("#example-table > tbody > tr").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+
+    function Limpiar() {
+        $('#my-search').val('');
+    }
+</script>

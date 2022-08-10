@@ -1,0 +1,153 @@
+.btn-secondary.disabled  {
+    cursor: auto;
+    color: #fff;
+    background-color: #00aaef;
+    border-color: #00aaef;
+  }
+
+  .bg-primary {
+    background-color: #1a2a68 !important;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0;
+    background: #1a2a68;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 2%;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #FFBE00;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+
+    .sidenav a {
+      font-size: 10px;
+    }
+    
+  }
+  
+  ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #bbbcbd; 
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #00C8FF; 
+    }
+
+  #my-tree h0 {
+    color: #92d050;
+    padding: 0.2em;
+    background-color: azure;
+  }
+
+  #my-tree h1 {
+    color: #2f5597;
+    padding: 0.2em;
+    background-color: azure;
+  }
+
+  #my-tree h3 {
+    color: #ed7d31;
+    padding: 0.2em;
+    background-color: azure;
+  }
+
+  #my-tree h4 {
+    color: #00377d;
+    padding: 0.4em;
+    width: auto;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: #00377d;
+    border-radius: 10px;
+    margin-left: 18%;
+  }
+
+  #my-tree h5 {
+    color: #787878;
+    padding: 0.2em;
+    background-color: rgba(0, 0, 0, .0001);
+    margin-left: 19%;
+  }
+
+  .tf-tree .tf-child-true:before {
+    display: none;
+  }
+
+  input[type="search"] {
+    margin-left: 80%;
+  }
+
+  .tf-tree .tf-child-false:before {
+    display: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  #cerrarModal {
+    border-color: #001950;
+    color: #001950;
+  }
+
+  #cerrarModal:hover {
+    background-color: #001950;
+    color: #fff;
+  }
+
+  .modal-header {
+    background-color: #001950;
+    color:#fff
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a2a68;
+    color: white;
+    text-align: center;
+  }
